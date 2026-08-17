@@ -1,0 +1,9 @@
+Supplier_Name,Txns,Received,Loss_Pct,Audit_Fail_Pct,Return_Pct,Gross_Profit
+ASDA Distribution,611,309674,6.04,14.40,4.60,45818652.50
+UK Retail Goods,619,314432,5.93,16.96,4.81,41819605.27
+Tesco Supply Ltd,610,317507,5.78,16.07,4.48,42612594.02
+Prime Wholesale UK,658,348061,5.74,13.37,4.71,45460827.16
+London Trade Corp,616,323005,5.70,15.58,4.77,48570057.87
+Britannia Pharma,630,332763,5.62,17.62,4.61,46483442.63
+Northern Supply Chain,626,333882,5.55,15.50,4.65,47083101.85
+Sainsbury Logistics,630,335037,5.52,13.97,4.51,44458064.17

@@ -1,0 +1,2897 @@
+Rows_Imported
+5000
+Field	Type	Null	Key	Default	Extra
+Transaction_ID	varchar(20)	NO	PRI	NULL	
+Transaction_Date_Text	varchar(20)	NO		NULL	
+Warehouse_Name	varchar(100)	NO		NULL	
+City	varchar(100)	NO		NULL	
+Product_Category	varchar(100)	NO		NULL	
+Product_Name	varchar(100)	NO		NULL	
+Supplier_Name	varchar(100)	NO		NULL	
+Batch_Number	varchar(50)	NO		NULL	
+Inventory_Type	varchar(20)	NO		NULL	
+Quantity_Received	int(11)	NO		NULL	
+Quantity_Dispatched	int(11)	NO		NULL	
+Damaged_Units	int(11)	NO		NULL	
+Missing_Units	int(11)	NO		NULL	
+Unit_Cost_GBP	decimal(10,2)	NO		NULL	
+Selling_Price_GBP	decimal(10,2)	NO		NULL	
+Storage_Section	varchar(10)	NO		NULL	
+Employee_Handling	varchar(100)	NO		NULL	
+Dispatch_Status	varchar(30)	NO		NULL	
+Delivery_Days	int(11)	NO		NULL	
+Temperature_Controlled	varchar(5)	NO		NULL	
+Stock_Audit_Status	varchar(20)	NO		NULL	
+Customer_Returns	int(11)	NO		NULL	
+Transaction_ID	Transaction_Date_Text	Warehouse_Name	City	Product_Category	Product_Name	Supplier_Name	Batch_Number	Inventory_Type	Quantity_Received	Quantity_Dispatched	Damaged_Units	Missing_Units	Unit_Cost_GBP	Selling_Price_GBP	Storage_Section	Employee_Handling	Dispatch_Status	Delivery_Days	Temperature_Controlled	Stock_Audit_Status	Customer_Returns
+TXN100000	14-02-2025	London Central Hub	London	Electronics	Laptop	ASDA Distribution	BATCH-4582	Inbound	809	301	15	7	171.75	201.25	A1	Noah Wilson	Delayed	9	No	Passed	7
+TXN100001	22-02-2025	Manchester Storage	Glasgow	Fashion	Handbag	London Trade Corp	BATCH-5333	Inbound	334	23	10	13	411.60	497.56	D2	Harry Johnson	Slightly Delayed	6	No	Passed	2
+TXN100002	05-12-2025	Leeds Fulfillment	Manchester	Home Appliances	Microwave	UK Retail Goods	BATCH-2654	Outbound	899	663	39	11	694.94	1107.18	C1	Emily Harris	On Time	1	No	Passed	5
+TXN100003	09-01-2026	Newcastle Depot	Bristol	Pharma	Cough Syrup	Britannia Pharma	BATCH-4598	Outbound	264	191	17	20	90.33	139.51	A1	Noah Wilson	Delayed	9	Yes	Passed	25
+TXN100004	22-07-2025	Newcastle Depot	Birmingham	Pharma	Bandages	Britannia Pharma	BATCH-3287	Inbound	324	53	13	18	1052.26	1389.27	C1	Amelia Clark	Delayed	8	No	Failed	11
+TXN100005	10-02-2026	Manchester Storage	Bristol	Grocery	Cooking Oil	Northern Supply Chain	BATCH-8668	Outbound	571	525	5	1	1034.02	1248.05	A1	Harry Johnson	On Time	3	No	Passed	24
+TXN100006	13-05-2026	Birmingham Distribution	Manchester	Pharma	Paracetamol	Britannia Pharma	BATCH-9317	Inbound	350	242	10	14	8.88	14.26	B1	Charlie Davies	Slightly Delayed	5	Yes	Passed	17
+TXN100007	03-05-2025	Manchester Storage	Manchester	Home Appliances	Mixer	Prime Wholesale UK	BATCH-2133	Inbound	663	351	31	0	138.68	187.78	B1	Emily Harris	Slightly Delayed	5	Yes	Passed	8
+TXN100008	13-08-2025	Newcastle Depot	Manchester	Home Appliances	Air Fryer	UK Retail Goods	BATCH-4681	Inbound	266	257	34	6	856.97	1182.01	C2	Oliver Smith	Slightly Delayed	6	Yes	Failed	18
+TXN100009	06-02-2025	Leeds Fulfillment	Newcastle	Grocery	Rice Pack	UK Retail Goods	BATCH-9834	Inbound	122	110	40	1	278.59	483.02	D2	Noah Wilson	Slightly Delayed	6	No	Passed	25
+TXN100010	11-12-2025	Manchester Storage	London	Fashion	Jeans	Northern Supply Chain	BATCH-6559	Inbound	146	32	27	11	511.18	729.41	B2	Noah Wilson	On Time	1	Yes	Passed	17
+TXN100011	18-02-2026	Manchester Storage	London	Fashion	Jeans	Tesco Supply Ltd	BATCH-2528	Inbound	482	113	17	14	303.52	530.03	B1	Amelia Clark	Delayed	8	No	Failed	15
+TXN100012	27-05-2025	Newcastle Depot	Birmingham	Grocery	Tea Bags	UK Retail Goods	BATCH-5861	Inbound	974	80	10	12	7.58	10.41	A1	Oliver Smith	Delayed	8	No	Passed	1
+TXN100013	05-02-2025	Liverpool Logistics	Bristol	Electronics	Keyboard	ASDA Distribution	BATCH-5033	Inbound	538	534	33	5	72.97	106.21	A2	Amelia Clark	On Time	3	No	Passed	8
+TXN100014	21-04-2026	Manchester Storage	London	Grocery	Coffee	Prime Wholesale UK	BATCH-2638	Inbound	294	155	25	4	807.67	1058.05	B2	Jack Taylor	Slightly Delayed	6	Yes	Passed	11
+TXN100015	18-02-2026	London Central Hub	Leeds	Electronics	Tablet	ASDA Distribution	BATCH-3200	Outbound	428	165	10	14	1001.33	1594.60	A2	Harry Johnson	Delayed	10	Yes	Passed	8
+TXN100016	09-04-2026	London Central Hub	Manchester	Pharma	Vitamin Tablets	Northern Supply Chain	BATCH-5533	Inbound	784	371	13	20	1024.23	1489.01	A1	Charlie Davies	Slightly Delayed	5	Yes	Failed	20
+TXN100017	07-10-2025	Glasgow Warehouse	Birmingham	Pharma	Vitamin Tablets	Northern Supply Chain	BATCH-3088	Inbound	809	472	35	13	675.28	795.69	C1	Charlie Davies	On Time	3	Yes	Passed	11
+TXN100018	19-01-2026	Liverpool Logistics	Birmingham	Grocery	Cooking Oil	Sainsbury Logistics	BATCH-7755	Inbound	732	125	22	17	1061.54	1469.66	B1	Charlie Davies	Delayed	10	No	Passed	25
+TXN100019	13-04-2025	Newcastle Depot	Glasgow	Grocery	Coffee	Britannia Pharma	BATCH-4728	Inbound	213	199	6	12	1047.24	1781.37	A1	Noah Wilson	Slightly Delayed	4	No	Passed	10
+Total_Row_Count
+5000
+Total_Column_Count
+22
+Warehouse_Name
+Birmingham Distribution
+Bristol Supply Hub
+Glasgow Warehouse
+Leeds Fulfillment
+Liverpool Logistics
+London Central Hub
+Manchester Storage
+Newcastle Depot
+City
+Birmingham
+Bristol
+Glasgow
+Leeds
+Liverpool
+London
+Manchester
+Newcastle
+Product_Category
+Electronics
+Fashion
+Grocery
+Home Appliances
+Pharma
+Product_Name
+Air Fryer
+Bandages
+Cereal
+Coffee
+Cooking Oil
+Cough Syrup
+Handbag
+Jacket
+Jeans
+Keyboard
+Laptop
+Microwave
+Mixer
+Monitor
+Paracetamol
+Rice Pack
+Smartphone
+Sneakers
+T-Shirt
+Tablet
+Tea Bags
+Vacuum Cleaner
+Vitamin Tablets
+Supplier_Name
+ASDA Distribution
+Britannia Pharma
+London Trade Corp
+Northern Supply Chain
+Prime Wholesale UK
+Sainsbury Logistics
+Tesco Supply Ltd
+UK Retail Goods
+Inventory_Type
+Inbound
+Outbound
+Dispatch_Status
+Delayed
+On Time
+Slightly Delayed
+Stock_Audit_Status
+Failed
+Passed
+Temperature_Controlled
+No
+Yes
+Distinct_Warehouses	Distinct_Cities	Distinct_Categories	Distinct_Products	Distinct_Suppliers	Distinct_Employees	Distinct_Storage_Sections	Distinct_Inventory_Types	Distinct_Dispatch_Statuses	Distinct_Audit_Statuses
+8	8	5	23	8	8	8	2	3	2
+Transaction_ID	Transaction_Date_Text
+TXN100000	14-02-2025
+TXN100001	22-02-2025
+TXN100002	05-12-2025
+TXN100003	09-01-2026
+TXN100004	22-07-2025
+TXN100005	10-02-2026
+TXN100006	13-05-2026
+TXN100007	03-05-2025
+TXN100008	13-08-2025
+TXN100009	06-02-2025
+TXN100010	11-12-2025
+TXN100011	18-02-2026
+TXN100012	27-05-2025
+TXN100013	05-02-2025
+TXN100014	21-04-2026
+TXN100015	18-02-2026
+TXN100016	09-04-2026
+TXN100017	07-10-2025
+TXN100018	19-01-2026
+TXN100019	13-04-2025
+Transaction_ID	Transaction_Date_Text	Transaction_Date_Converted
+TXN100000	14-02-2025	2025-02-14
+TXN100001	22-02-2025	2025-02-22
+TXN100002	05-12-2025	2025-12-05
+TXN100003	09-01-2026	2026-01-09
+TXN100004	22-07-2025	2025-07-22
+TXN100005	10-02-2026	2026-02-10
+TXN100006	13-05-2026	2026-05-13
+TXN100007	03-05-2025	2025-05-03
+TXN100008	13-08-2025	2025-08-13
+TXN100009	06-02-2025	2025-02-06
+TXN100010	11-12-2025	2025-12-11
+TXN100011	18-02-2026	2026-02-18
+TXN100012	27-05-2025	2025-05-27
+TXN100013	05-02-2025	2025-02-05
+TXN100014	21-04-2026	2026-04-21
+TXN100015	18-02-2026	2026-02-18
+TXN100016	09-04-2026	2026-04-09
+TXN100017	07-10-2025	2025-10-07
+TXN100018	19-01-2026	2026-01-19
+TXN100019	13-04-2025	2025-04-13
+Date_Conversion_Failures
+0
+Earliest_Transaction_Date	Latest_Transaction_Date
+2025-01-01	2026-05-16
+Field	Type	Null	Key	Default	Extra
+Transaction_ID	varchar(20)	NO	PRI	NULL	
+Transaction_Date	date	NO	MUL	NULL	
+Transaction_Date_Text	varchar(20)	NO		NULL	
+Warehouse_Name	varchar(100)	NO	MUL	NULL	
+City	varchar(100)	NO		NULL	
+Product_Category	varchar(100)	NO	MUL	NULL	
+Product_Name	varchar(100)	NO		NULL	
+Supplier_Name	varchar(100)	NO	MUL	NULL	
+Batch_Number	varchar(50)	NO		NULL	
+Inventory_Type	varchar(20)	NO		NULL	
+Quantity_Received	int(11)	NO		NULL	
+Quantity_Dispatched	int(11)	NO		NULL	
+Damaged_Units	int(11)	NO		NULL	
+Missing_Units	int(11)	NO		NULL	
+Unit_Cost_GBP	decimal(10,2)	NO		NULL	
+Selling_Price_GBP	decimal(10,2)	NO		NULL	
+Storage_Section	varchar(10)	NO		NULL	
+Employee_Handling	varchar(100)	NO		NULL	
+Dispatch_Status	varchar(30)	NO		NULL	
+Delivery_Days	int(11)	NO		NULL	
+Temperature_Controlled	varchar(5)	NO		NULL	
+Stock_Audit_Status	varchar(20)	NO		NULL	
+Customer_Returns	int(11)	NO		NULL	
+Final_Table_Row_Count
+5000
+Null_Transaction_ID	Null_Transaction_Date	Null_Warehouse_Name	Null_City	Null_Product_Category	Null_Product_Name	Null_Supplier_Name	Null_Batch_Number	Null_Inventory_Type	Null_Quantity_Received	Null_Quantity_Dispatched	Null_Damaged_Units	Null_Missing_Units	Null_Unit_Cost_GBP	Null_Selling_Price_GBP	Null_Storage_Section	Null_Employee_Handling	Null_Dispatch_Status	Null_Delivery_Days	Null_Temperature_Controlled	Null_Stock_Audit_Status	Null_Customer_Returns
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Blank_Warehouse_Name	Blank_City	Blank_Product_Category	Blank_Product_Name	Blank_Supplier_Name	Blank_Batch_Number	Blank_Storage_Section	Blank_Employee_Handling
+0	0	0	0	0	0	0	0
+Rows_With_Negative_Values
+0
+Zero_Quantity_Received	Zero_Quantity_Dispatched	Zero_Unit_Cost	Zero_Selling_Price
+0	0	0	0
+Transaction_ID	Quantity_Received	Damaged_Units	Missing_Units	Total_Loss_Units
+TXN102981	57	40	20	60
+TXN100258	50	40	16	56
+TXN103789	50	39	16	55
+Transaction_ID	Quantity_Dispatched	Customer_Returns
+TXN100842	22	25
+TXN101165	21	24
+TXN102579	22	25
+TXN102687	22	25
+TXN100718	21	23
+TXN101675	22	24
+TXN103945	20	22
+TXN103018	22	23
+TXN103538	24	25
+Warehouse_Name	Distinct_Cities_Linked	Transaction_Count
+Newcastle Depot	8	632
+Liverpool Logistics	8	602
+Bristol Supply Hub	8	636
+Manchester Storage	8	612
+Leeds Fulfillment	8	631
+Birmingham Distribution	8	646
+London Central Hub	8	614
+Glasgow Warehouse	8	627
+Batch_Number	Distinct_Products	Distinct_Suppliers	Transaction_Count
+BATCH-1096	5	4	5
+BATCH-1074	5	4	5
+BATCH-3227	5	2	5
+BATCH-9042	4	5	5
+BATCH-1988	4	4	4
+BATCH-4241	4	4	4
+BATCH-2660	4	4	4
+BATCH-9243	4	4	4
+BATCH-5006	4	4	4
+BATCH-4283	4	4	4
+BATCH-3502	4	4	4
+BATCH-2142	4	4	5
+BATCH-2681	4	4	4
+BATCH-8540	4	4	5
+BATCH-1507	4	3	4
+BATCH-3187	4	3	4
+BATCH-6855	4	3	5
+BATCH-3424	4	3	4
+BATCH-1723	4	3	4
+BATCH-4312	4	2	4
+BATCH-9184	3	3	3
+BATCH-7523	3	3	3
+BATCH-1845	3	3	3
+BATCH-8023	3	3	3
+BATCH-3410	3	3	3
+BATCH-9106	3	3	3
+BATCH-6112	3	3	3
+BATCH-3082	3	3	3
+BATCH-5565	3	3	3
+BATCH-7738	3	3	3
+BATCH-3405	3	3	3
+BATCH-7942	3	3	3
+BATCH-1389	3	3	3
+BATCH-2797	3	3	3
+BATCH-9012	3	3	3
+BATCH-9975	3	3	3
+BATCH-2262	3	3	3
+BATCH-8369	3	3	3
+BATCH-7322	3	3	3
+BATCH-2860	3	3	3
+BATCH-2922	3	3	3
+BATCH-4152	3	3	3
+BATCH-8580	3	3	3
+BATCH-2791	3	3	3
+BATCH-7780	3	3	3
+BATCH-8877	3	3	3
+BATCH-1000	3	3	3
+BATCH-9646	3	3	3
+BATCH-4300	3	3	3
+BATCH-1960	3	3	3
+BATCH-1669	3	3	3
+BATCH-3378	3	3	3
+BATCH-9721	3	3	3
+BATCH-8999	3	3	3
+BATCH-8570	3	3	3
+BATCH-5405	3	3	3
+BATCH-7996	3	3	4
+BATCH-8269	3	3	3
+BATCH-5105	3	3	3
+BATCH-9074	3	3	3
+BATCH-1749	3	3	3
+BATCH-2374	3	3	3
+BATCH-7912	3	3	3
+BATCH-1440	3	3	3
+BATCH-3182	3	3	3
+BATCH-5009	3	3	3
+BATCH-5775	3	3	3
+BATCH-7427	3	3	3
+BATCH-2093	3	3	3
+BATCH-5681	3	3	3
+BATCH-9140	3	3	3
+BATCH-9382	3	3	3
+BATCH-2016	3	3	3
+BATCH-7480	3	3	3
+BATCH-1493	3	3	3
+BATCH-7050	3	3	3
+BATCH-1572	3	3	3
+BATCH-5252	3	3	3
+BATCH-2303	3	3	3
+BATCH-8558	3	3	3
+BATCH-4838	3	3	3
+BATCH-8250	3	3	3
+BATCH-7202	3	3	3
+BATCH-3362	3	3	3
+BATCH-2299	3	3	3
+BATCH-8978	3	3	3
+BATCH-7413	3	3	3
+BATCH-1356	3	3	4
+BATCH-2078	3	3	3
+BATCH-7122	3	3	3
+BATCH-1354	3	3	3
+BATCH-2004	3	3	3
+BATCH-8324	3	3	3
+BATCH-1710	3	3	3
+BATCH-7406	3	3	3
+BATCH-8035	3	3	3
+BATCH-8122	3	3	3
+BATCH-2063	3	3	3
+BATCH-6311	3	3	3
+BATCH-5661	3	3	3
+BATCH-2417	3	3	3
+BATCH-4260	3	3	3
+BATCH-7173	3	3	3
+BATCH-6193	3	2	3
+BATCH-9898	3	2	3
+BATCH-6378	3	2	3
+BATCH-3342	3	2	3
+BATCH-9893	3	2	3
+BATCH-4871	3	2	3
+BATCH-5742	3	2	3
+BATCH-5888	3	2	3
+BATCH-8889	3	2	3
+BATCH-1325	3	2	3
+BATCH-4954	3	2	3
+BATCH-5796	3	2	3
+BATCH-1971	3	2	3
+BATCH-8740	3	2	3
+BATCH-9156	3	2	3
+BATCH-4368	3	2	3
+BATCH-2447	3	2	3
+BATCH-6092	3	2	3
+BATCH-4645	3	2	3
+BATCH-9778	3	2	3
+BATCH-7362	3	2	3
+BATCH-6879	3	2	3
+BATCH-6253	3	2	3
+BATCH-8710	3	2	3
+BATCH-8264	3	2	3
+BATCH-5177	3	2	3
+BATCH-7764	3	2	3
+BATCH-2964	3	2	3
+BATCH-7979	3	2	3
+BATCH-7625	3	2	3
+BATCH-5082	3	2	3
+BATCH-8041	3	2	3
+BATCH-1352	3	2	3
+BATCH-2288	3	2	3
+BATCH-6624	3	2	3
+BATCH-8616	3	2	3
+BATCH-1480	3	2	3
+BATCH-3945	3	2	3
+BATCH-4110	3	2	3
+BATCH-8032	3	2	3
+BATCH-7099	3	2	3
+BATCH-3532	3	1	3
+BATCH-4963	2	3	3
+BATCH-3205	2	3	3
+BATCH-3893	2	3	3
+BATCH-5783	2	3	3
+BATCH-9621	2	3	3
+BATCH-2904	2	3	3
+BATCH-8049	2	3	3
+BATCH-4681	2	3	3
+BATCH-7461	2	3	3
+BATCH-4812	2	3	3
+BATCH-3481	2	2	2
+BATCH-4178	2	2	2
+BATCH-1247	2	2	2
+BATCH-5428	2	2	2
+BATCH-3088	2	2	2
+BATCH-6838	2	2	2
+BATCH-1989	2	2	2
+BATCH-4973	2	2	2
+BATCH-9437	2	2	2
+BATCH-2058	2	2	2
+BATCH-8824	2	2	2
+BATCH-5649	2	2	2
+BATCH-4544	2	2	2
+BATCH-2212	2	2	2
+BATCH-8951	2	2	2
+BATCH-2811	2	2	2
+BATCH-7172	2	2	2
+BATCH-2339	2	2	2
+BATCH-9108	2	2	2
+BATCH-6615	2	2	2
+BATCH-4733	2	2	2
+BATCH-9182	2	2	2
+BATCH-8598	2	2	2
+BATCH-6046	2	2	2
+BATCH-9904	2	2	2
+BATCH-4804	2	2	2
+BATCH-3637	2	2	2
+BATCH-6192	2	2	2
+BATCH-6292	2	2	2
+BATCH-5648	2	2	2
+BATCH-8895	2	2	2
+BATCH-8303	2	2	2
+BATCH-3928	2	2	2
+BATCH-1627	2	2	2
+BATCH-4602	2	2	2
+BATCH-9028	2	2	2
+BATCH-9740	2	2	2
+BATCH-4095	2	2	2
+BATCH-3474	2	2	2
+BATCH-5366	2	2	2
+BATCH-2409	2	2	2
+BATCH-1907	2	2	2
+BATCH-1333	2	2	2
+BATCH-8022	2	2	2
+BATCH-9981	2	2	2
+BATCH-7453	2	2	2
+BATCH-4872	2	2	2
+BATCH-4327	2	2	2
+BATCH-4394	2	2	2
+BATCH-8301	2	2	2
+BATCH-5129	2	2	2
+BATCH-1623	2	2	2
+BATCH-5803	2	2	2
+BATCH-7739	2	2	2
+BATCH-2269	2	2	2
+BATCH-4007	2	2	2
+BATCH-3409	2	2	2
+BATCH-5285	2	2	2
+BATCH-7872	2	2	2
+BATCH-2928	2	2	2
+BATCH-9810	2	2	2
+BATCH-4168	2	2	2
+BATCH-1840	2	2	2
+BATCH-2999	2	2	2
+BATCH-6754	2	2	2
+BATCH-5495	2	2	2
+BATCH-8100	2	2	2
+BATCH-2595	2	2	2
+BATCH-3783	2	2	2
+BATCH-7586	2	2	2
+BATCH-8890	2	2	2
+BATCH-8944	2	2	2
+BATCH-5801	2	2	2
+BATCH-3339	2	2	2
+BATCH-5214	2	2	2
+BATCH-2804	2	2	2
+BATCH-7169	2	2	2
+BATCH-4600	2	2	2
+BATCH-4005	2	2	2
+BATCH-1768	2	2	2
+BATCH-7870	2	2	2
+BATCH-9807	2	2	2
+BATCH-8590	2	2	2
+BATCH-1235	2	2	2
+BATCH-7389	2	2	2
+BATCH-9256	2	2	2
+BATCH-6107	2	2	2
+BATCH-5494	2	2	2
+BATCH-4320	2	2	2
+BATCH-7517	2	2	2
+BATCH-4961	2	2	2
+BATCH-2594	2	2	2
+BATCH-4385	2	2	2
+BATCH-7585	2	2	2
+BATCH-3843	2	2	2
+BATCH-8293	2	2	2
+BATCH-7668	2	2	2
+BATCH-2206	2	2	2
+BATCH-6455	2	2	2
+BATCH-3919	2	2	2
+BATCH-3336	2	2	3
+BATCH-7737	2	2	2
+BATCH-9668	2	2	2
+BATCH-4598	2	2	2
+BATCH-9020	2	2	2
+BATCH-4004	2	2	2
+BATCH-5887	2	2	2
+BATCH-4660	2	2	2
+BATCH-2332	2	2	2
+BATCH-7869	2	2	2
+BATCH-6666	2	2	2
+BATCH-9255	2	2	2
+BATCH-8664	2	2	2
+BATCH-3074	2	2	2
+BATCH-9977	2	2	2
+BATCH-4869	2	2	2
+BATCH-2533	2	2	2
+BATCH-3708	2	2	2
+BATCH-5642	2	2	2
+BATCH-2666	2	2	2
+BATCH-9500	2	2	2
+BATCH-2115	2	2	2
+BATCH-6370	2	2	2
+BATCH-5123	2	2	2
+BATCH-4531	2	2	2
+BATCH-8377	2	2	2
+BATCH-7736	2	2	2
+BATCH-7163	2	2	2
+BATCH-5281	2	2	2
+BATCH-2925	2	2	2
+BATCH-4722	2	2	2
+BATCH-5420	2	2	2
+BATCH-7387	2	2	2
+BATCH-6748	2	2	2
+BATCH-3072	2	2	2
+BATCH-9331	2	2	2
+BATCH-4313	2	2	2
+BATCH-1388	2	2	2
+BATCH-4380	2	2	2
+BATCH-3774	2	2	2
+BATCH-8197	2	2	2
+BATCH-7007	2	2	2
+BATCH-3840	2	2	2
+BATCH-2202	2	2	2
+BATCH-6453	2	2	2
+BATCH-5202	2	2	2
+BATCH-6518	2	2	2
+BATCH-1090	2	2	2
+BATCH-5277	2	2	2
+BATCH-9734	2	2	2
+BATCH-9096	2	2	2
+BATCH-7386	2	2	2
+BATCH-8659	2	2	2
+BATCH-6101	2	2	2
+BATCH-5486	2	2	2
+BATCH-9972	2	2	2
+BATCH-4866	2	2	2
+BATCH-3126	2	2	2
+BATCH-2586	2	2	2
+BATCH-1457	2	2	2
+BATCH-5638	2	2	2
+BATCH-5120	2	2	2
+BATCH-2725	2	2	2
+BATCH-2200	2	2	2
+BATCH-8936	2	2	2
+BATCH-1686	2	2	2
+BATCH-7863	2	2	2
+BATCH-2393	2	2	2
+BATCH-4792	2	2	2
+BATCH-6746	2	2	2
+BATCH-4239	2	2	2
+BATCH-3620	2	2	2
+BATCH-3069	2	2	2
+BATCH-6820	2	2	2
+BATCH-4311	2	2	2
+BATCH-1970	2	2	2
+BATCH-6178	2	2	2
+BATCH-4376	2	2	2
+BATCH-6996	2	2	2
+BATCH-1603	2	2	2
+BATCH-1012	2	2	2
+BATCH-9004	2	2	2
+BATCH-1680	2	2	2
+BATCH-1760	2	2	2
+BATCH-1150	2	2	2
+BATCH-4716	2	2	2
+BATCH-2453	2	2	2
+BATCH-3065	2	2	2
+BATCH-3695	2	2	2
+BATCH-8085	2	2	2
+BATCH-3124	2	2	2
+BATCH-3770	2	2	2
+BATCH-5027	2	2	2
+BATCH-2654	2	2	2
+BATCH-4519	2	2	2
+BATCH-6447	2	2	2
+BATCH-8363	2	2	2
+BATCH-3327	2	2	2
+BATCH-4590	2	2	2
+BATCH-6510	2	2	2
+BATCH-8440	2	2	2
+BATCH-1148	2	2	2
+BATCH-6021	2	2	2
+BATCH-5412	2	2	2
+BATCH-2987	2	2	2
+BATCH-7371	2	2	2
+BATCH-1891	2	2	2
+BATCH-8655	2	2	2
+BATCH-8006	2	2	2
+BATCH-5479	2	2	2
+BATCH-9320	2	2	2
+BATCH-1966	2	2	2
+BATCH-8728	2	2	2
+BATCH-8084	2	2	2
+BATCH-7502	2	2	2
+BATCH-1448	2	2	2
+BATCH-8185	2	2	2
+BATCH-3270	2	2	2
+BATCH-2185	2	2	2
+BATCH-4589	2	2	2
+BATCH-3988	2	2	2
+BATCH-1675	2	2	2
+BATCH-8439	2	2	2
+BATCH-1082	2	2	2
+BATCH-5271	2	2	2
+BATCH-4074	2	2	2
+BATCH-1756	2	2	2
+BATCH-5944	2	2	2
+BATCH-6653	2	2	2
+BATCH-3527	2	2	2
+BATCH-8005	2	2	2
+BATCH-5478	2	2	2
+BATCH-4859	2	2	2
+BATCH-4940	2	2	2
+BATCH-6897	2	2	2
+BATCH-1447	2	2	2
+BATCH-3832	2	2	2
+BATCH-5116	2	2	2
+BATCH-7063	2	2	2
+BATCH-5194	2	2	2
+BATCH-2250	2	2	2
+BATCH-5270	2	2	2
+BATCH-2856	2	2	2
+BATCH-9723	2	2	2
+BATCH-2320	2	2	2
+BATCH-7860	2	2	2
+BATCH-4700	2	2	2
+BATCH-8575	2	2	2
+BATCH-2983	2	2	2
+BATCH-4232	2	2	2
+BATCH-3610	2	2	2
+BATCH-5476	2	2	2
+BATCH-9959	2	2	2
+BATCH-2514	2	2	2
+BATCH-8800	2	2	2
+BATCH-2645	2	2	2
+BATCH-6988	2	2	2
+BATCH-4512	2	2	2
+BATCH-2180	2	2	2
+BATCH-9641	2	2	2
+BATCH-2248	2	2	2
+BATCH-2316	2	2	2
+BATCH-9079	2	2	2
+BATCH-8509	2	2	2
+BATCH-2917	2	2	2
+BATCH-6649	2	2	2
+BATCH-5406	2	2	2
+BATCH-4786	2	2	2
+BATCH-9316	2	2	2
+BATCH-1379	2	2	2
+BATCH-2576	2	2	2
+BATCH-8872	2	2	2
+BATCH-3828	2	2	3
+BATCH-8270	2	2	2
+BATCH-2717	2	2	2
+BATCH-4510	2	2	2
+BATCH-8930	2	2	2
+BATCH-5188	2	2	2
+BATCH-2782	2	2	2
+BATCH-4582	2	2	2
+BATCH-3978	2	2	2
+BATCH-8434	2	2	2
+BATCH-2854	2	2	2
+BATCH-1751	2	2	2
+BATCH-8507	2	2	2
+BATCH-5336	2	2	2
+BATCH-7306	2	2	2
+BATCH-2376	2	2	2
+BATCH-3524	2	2	2
+BATCH-5467	2	2	2
+BATCH-1376	2	2	2
+BATCH-5542	2	2	2
+BATCH-5619	2	2	2
+BATCH-8870	2	2	2
+BATCH-5697	2	2	2
+BATCH-1585	2	2	2
+BATCH-7139	2	2	2
+BATCH-3977	2	2	2
+BATCH-1656	2	2	2
+BATCH-5861	2	2	2
+BATCH-2852	2	2	2
+BATCH-4067	2	2	2
+BATCH-8505	2	2	2
+BATCH-7855	2	2	2
+BATCH-6647	2	2	2
+BATCH-4139	2	2	2
+BATCH-3523	2	2	2
+BATCH-4782	2	2	2
+BATCH-6086	2	2	2
+BATCH-3604	2	2	2
+BATCH-9956	2	2	2
+BATCH-8719	2	2	2
+BATCH-6164	2	2	2
+BATCH-9396	2	2	2
+BATCH-4431	2	2	2
+BATCH-8867	2	2	2
+BATCH-6353	2	2	2
+BATCH-5104	2	2	2
+BATCH-2713	2	2	2
+BATCH-6429	2	2	2
+BATCH-1581	2	2	2
+BATCH-4580	2	2	2
+BATCH-6493	2	2	2
+BATCH-1655	2	2	2
+BATCH-5859	2	2	2
+BATCH-1070	2	2	2
+BATCH-5262	2	2	2
+BATCH-2850	2	2	2
+BATCH-4066	2	2	2
+BATCH-1746	2	2	2
+BATCH-3447	2	2	2
+BATCH-7850	2	2	2
+BATCH-8568	2	2	2
+BATCH-3518	2	2	2
+BATCH-2969	2	2	2
+BATCH-9870	2	2	2
+BATCH-4776	2	2	2
+BATCH-9219	2	2	2
+BATCH-4219	2	2	2
+BATCH-3603	2	2	2
+BATCH-2509	2	2	2
+BATCH-9309	2	2	2
+BATCH-4922	2	2	2
+BATCH-8866	2	2	2
+BATCH-1500	2	2	2
+BATCH-3255	2	2	2
+BATCH-5182	2	2	2
+BATCH-9622	2	2	2
+BATCH-6492	2	2	2
+BATCH-7299	2	2	2
+BATCH-6722	2	2	2
+BATCH-3598	2	2	2
+BATCH-1292	2	2	2
+BATCH-7983	2	2	2
+BATCH-3042	2	2	2
+BATCH-2507	2	2	2
+BATCH-9307	2	2	2
+BATCH-6800	2	2	2
+BATCH-9388	2	2	2
+BATCH-1439	2	2	2
+BATCH-6350	2	2	2
+BATCH-1496	2	2	2
+BATCH-7640	2	2	2
+BATCH-1067	2	2	2
+BATCH-7208	2	2	3
+BATCH-1741	2	2	2
+BATCH-7908	2	2	2
+BATCH-9217	2	2	2
+BATCH-6719	2	2	2
+BATCH-8640	2	2	2
+BATCH-6079	2	2	2
+BATCH-9948	2	2	2
+BATCH-2504	2	2	2
+BATCH-8062	2	2	2
+BATCH-3743	2	2	2
+BATCH-9459	2	2	2
+BATCH-4424	2	2	2
+BATCH-2092	2	2	2
+BATCH-3817	2	2	2
+BATCH-1494	2	2	2
+BATCH-2770	2	2	2
+BATCH-2237	2	2	2
+BATCH-8985	2	2	2
+BATCH-3960	2	2	2
+BATCH-1652	2	2	2
+BATCH-8422	2	2	2
+BATCH-3440	2	2	2
+BATCH-7840	2	2	2
+BATCH-7297	2	2	2
+BATCH-6640	2	2	2
+BATCH-4129	2	2	2
+BATCH-3514	2	2	2
+BATCH-5393	2	2	2
+BATCH-9856	2	2	2
+BATCH-7355	2	2	2
+BATCH-2436	2	2	3
+BATCH-9214	2	2	2
+BATCH-3595	2	2	2
+BATCH-4840	2	2	2
+BATCH-9305	2	2	2
+BATCH-4288	2	2	2
+BATCH-6145	2	2	2
+BATCH-9381	2	2	2
+BATCH-8778	2	2	2
+BATCH-5610	2	2	2
+BATCH-4994	2	2	2
+BATCH-9458	2	2	2
+BATCH-6966	2	2	2
+BATCH-4421	2	2	2
+BATCH-2090	2	2	2
+BATCH-7705	2	2	2
+BATCH-2769	2	2	2
+BATCH-6555	2	2	2
+BATCH-7839	2	2	2
+BATCH-2897	2	2	2
+BATCH-7296	2	2	2
+BATCH-4686	2	2	2
+BATCH-5999	2	2	2
+BATCH-1196	2	2	2
+BATCH-6074	2	2	2
+BATCH-8705	2	2	2
+BATCH-9380	2	2	2
+BATCH-8777	2	2	2
+BATCH-1430	2	2	2
+BATCH-3172	2	2	2
+BATCH-4993	2	2	2
+BATCH-2087	2	2	2
+BATCH-5089	2	2	2
+BATCH-2703	2	2	2
+BATCH-8915	2	2	2
+BATCH-7703	2	2	2
+BATCH-8981	2	2	2
+BATCH-1648	2	2	2
+BATCH-5847	2	2	2
+BATCH-2837	2	2	2
+BATCH-9059	2	2	2
+BATCH-6551	2	2	2
+BATCH-5322	2	2	2
+BATCH-4684	2	2	2
+BATCH-2362	2	2	2
+BATCH-4125	2	2	2
+BATCH-1274	2	2	2
+BATCH-7418	2	2	2
+BATCH-2501	2	2	2
+BATCH-1949	2	2	2
+BATCH-6138	2	2	2
+BATCH-2561	2	2	2
+BATCH-5603	2	2	2
+BATCH-9456	2	2	2
+BATCH-5675	2	2	2
+BATCH-9547	2	2	2
+BATCH-7046	2	2	2
+BATCH-6412	2	2	2
+BATCH-5173	2	2	2
+BATCH-9615	2	2	2
+BATCH-2232	2	2	2
+BATCH-6549	2	2	2
+BATCH-5919	2	2	2
+BATCH-9132	2	2	2
+BATCH-9846	2	2	2
+BATCH-4206	2	2	2
+BATCH-1869	2	2	2
+BATCH-6136	2	2	2
+BATCH-8047	2	2	3
+BATCH-3103	2	2	2
+BATCH-2559	2	2	2
+BATCH-4347	2	2	3
+BATCH-8155	2	2	2
+BATCH-2623	2	2	2
+BATCH-8852	2	2	2
+BATCH-1488	2	2	2
+BATCH-8244	2	2	2
+BATCH-2155	2	2	2
+BATCH-8913	2	2	2
+BATCH-6478	2	2	2
+BATCH-4682	2	2	2
+BATCH-7347	2	2	2
+BATCH-4764	2	2	2
+BATCH-2429	2	2	2
+BATCH-6710	2	2	2
+BATCH-4832	2	2	2
+BATCH-6858	2	2	2
+BATCH-5592	2	2	2
+BATCH-9453	2	2	2
+BATCH-6946	2	2	2
+BATCH-4411	2	2	2
+BATCH-1487	2	2	2
+BATCH-9532	2	2	2
+BATCH-4493	2	2	2
+BATCH-3874	2	2	2
+BATCH-7697	2	2	2
+BATCH-9609	2	2	2
+BATCH-1644	2	2	2
+BATCH-3360	2	2	2
+BATCH-2294	2	2	2
+BATCH-7278	2	2	2
+BATCH-5384	2	2	2
+BATCH-7345	2	2	2
+BATCH-5441	2	2	2
+BATCH-2007	2	2	2
+BATCH-1420	2	2	2
+BATCH-4410	2	2	2
+BATCH-8845	2	2	2
+BATCH-2692	2	2	2
+BATCH-7038	2	2	2
+BATCH-5759	2	2	2
+BATCH-5165	2	2	2
+BATCH-9606	2	2	2
+BATCH-7755	2	2	2
+BATCH-4627	2	2	2
+BATCH-9050	2	2	2
+BATCH-4037	2	2	2
+BATCH-7823	2	2	2
+BATCH-2888	2	2	2
+BATCH-4757	2	2	2
+BATCH-2427	2	2	2
+BATCH-4202	2	2	2
+BATCH-3650	2	2	2
+BATCH-8138	2	2	2
+BATCH-4409	2	2	2
+BATCH-6320	2	2	2
+BATCH-8234	2	2	2
+BATCH-5668	2	2	2
+BATCH-6405	2	2	2
+BATCH-7754	2	2	2
+BATCH-2829	2	2	2
+BATCH-6544	2	2	2
+BATCH-2886	2	2	2
+BATCH-9756	2	2	2
+BATCH-7274	2	2	3
+BATCH-2352	2	2	2
+BATCH-8549	2	2	2
+BATCH-7342	2	2	2
+BATCH-4755	2	2	2
+BATCH-5437	2	2	2
+BATCH-9915	2	2	2
+BATCH-4826	2	2	2
+BATCH-8684	2	2	2
+BATCH-4476	2	2	2
+BATCH-2146	2	2	2
+BATCH-8907	2	2	2
+BATCH-5753	2	2	2
+BATCH-2750	2	2	2
+BATCH-7116	2	2	2
+BATCH-8964	2	2	2
+BATCH-3948	2	2	2
+BATCH-1638	2	2	2
+BATCH-8399	2	2	2
+BATCH-5235	2	2	2
+BATCH-3421	2	2	2
+BATCH-2350	2	2	2
+BATCH-9119	2	2	2
+BATCH-1781	2	2	2
+BATCH-5377	2	2	2
+BATCH-7341	2	2	2
+BATCH-4754	2	2	2
+BATCH-2487	2	2	2
+BATCH-9283	2	2	2
+BATCH-9359	2	2	2
+BATCH-9446	2	2	2
+BATCH-5068	2	2	2
+BATCH-6398	2	2	2
+BATCH-3291	2	2	2
+BATCH-7685	2	2	2
+BATCH-2748	2	2	2
+BATCH-8960	2	2	2
+BATCH-5826	2	2	2
+BATCH-2822	2	2	2
+BATCH-7187	2	2	2
+BATCH-4615	2	2	2
+BATCH-9041	2	2	2
+BATCH-7817	2	2	2
+BATCH-2883	2	2	2
+BATCH-4677	2	2	2
+BATCH-8543	2	2	2
+BATCH-5376	2	2	2
+BATCH-9831	2	2	2
+BATCH-4749	2	2	2
+BATCH-1855	2	2	2
+BATCH-3018	2	2	2
+BATCH-2486	2	2	2
+BATCH-6773	2	2	2
+BATCH-1925	2	2	2
+BATCH-5507	2	2	2
+BATCH-4892	2	2	2
+BATCH-6848	2	2	2
+BATCH-1997	2	2	2
+BATCH-1409	2	2	2
+BATCH-5583	2	2	2
+BATCH-6936	2	2	2
+BATCH-8230	2	2	2
+BATCH-7614	2	2	2
+BATCH-2140	2	2	2
+BATCH-1546	2	2	2
+BATCH-7110	2	2	2
+BATCH-2224	2	2	2
+BATCH-1634	2	2	2
+BATCH-1047	2	2	2
+BATCH-7816	2	2	2
+BATCH-8542	2	2	2
+BATCH-3487	2	2	2
+BATCH-2937	2	2	2
+BATCH-3559	2	2	2
+BATCH-5434	2	2	2
+BATCH-3644	2	2	2
+BATCH-1349	2	2	2
+BATCH-5506	2	2	2
+BATCH-3093	2	2	2
+BATCH-2549	2	2	2
+BATCH-6845	2	2	2
+BATCH-1996	2	2	2
+BATCH-3724	2	2	2
+BATCH-8116	2	2	2
+BATCH-3150	2	2	2
+BATCH-4977	2	2	2
+BATCH-6930	2	2	2
+BATCH-4404	2	2	2
+BATCH-1537	2	2	2
+BATCH-5750	2	2	2
+BATCH-4550	2	2	2
+BATCH-9037	2	2	2
+BATCH-4018	2	2	2
+BATCH-8467	2	2	2
+BATCH-1110	2	2	2
+BATCH-9113	2	2	2
+BATCH-6618	2	2	2
+BATCH-4106	2	2	2
+BATCH-7888	2	2	2
+BATCH-5373	2	2	2
+BATCH-9829	2	2	2
+BATCH-1851	2	2	2
+BATCH-1254	2	2	2
+BATCH-9908	2	2	2
+BATCH-9276	2	2	2
+BATCH-1917	2	2	2
+BATCH-3643	2	2	2
+BATCH-3090	2	2	2
+BATCH-9353	2	2	2
+BATCH-8113	2	2	2
+BATCH-6926	2	2	2
+BATCH-8224	2	2	2
+BATCH-3288	2	2	2
+BATCH-7108	2	2	2
+BATCH-8956	2	2	2
+BATCH-4609	2	2	2
+BATCH-9034	2	2	2
+BATCH-6536	2	2	2
+BATCH-5902	2	2	2
+BATCH-1104	2	2	2
+BATCH-9185	2	2	2
+BATCH-8606	2	2	2
+BATCH-6050	2	2	2
+BATCH-7397	2	2	2
+BATCH-1476	2	2	2
+BATCH-5653	2	2	2
+BATCH-2133	2	2	2
+BATCH-3856	2	2	2
+BATCH-2741	2	2	2
+BATCH-2214	2	2	2
+BATCH-8953	2	2	2
+BATCH-1042	2	2	2
+BATCH-9033	2	2	2
+BATCH-6533	2	2	2
+BATCH-4014	2	2	2
+BATCH-7811	2	2	2
+BATCH-6616	2	2	2
+BATCH-3548	2	1	2
+BATCH-8756	2	1	2
+BATCH-6463	2	1	2
+BATCH-5219	2	1	2
+BATCH-2210	2	1	2
+BATCH-7255	2	1	2
+BATCH-1157	2	1	2
+BATCH-2600	2	1	2
+BATCH-9585	2	1	2
+BATCH-7518	2	1	2
+BATCH-5283	2	1	2
+BATCH-2927	2	1	2
+BATCH-2800	2	1	2
+BATCH-1902	2	1	2
+BATCH-8747	2	1	2
+BATCH-5560	2	1	2
+BATCH-6286	2	1	2
+BATCH-9166	2	1	2
+BATCH-7579	2	1	2
+BATCH-7162	2	1	2
+BATCH-9247	2	1	2
+BATCH-7505	2	1	2
+BATCH-9095	2	1	2
+BATCH-6593	2	1	2
+BATCH-5554	2	1	2
+BATCH-8191	2	1	2
+BATCH-8008	2	1	2
+BATCH-6176	2	1	2
+BATCH-3382	2	1	2
+BATCH-1147	2	1	2
+BATCH-6815	2	1	2
+BATCH-1753	2	1	2
+BATCH-3264	2	1	2
+BATCH-5190	2	1	2
+BATCH-4143	2	1	2
+BATCH-6262	2	1	2
+BATCH-6985	2	1	2
+BATCH-3892	2	1	2
+BATCH-9639	2	1	2
+BATCH-3449	2	1	2
+BATCH-6648	2	1	2
+BATCH-6010	2	1	2
+BATCH-1884	2	1	2
+BATCH-3118	2	1	2
+BATCH-6569	2	1	2
+BATCH-9145	2	1	2
+BATCH-1809	2	1	2
+BATCH-3116	2	1	2
+BATCH-2373	2	1	2
+BATCH-8992	2	1	2
+BATCH-3968	2	1	2
+BATCH-5927	2	1	2
+BATCH-9954	2	1	2
+BATCH-4638	2	1	2
+BATCH-9776	2	1	2
+BATCH-5394	2	1	2
+BATCH-5680	2	1	2
+BATCH-4502	2	1	2
+BATCH-7706	2	1	2
+BATCH-2902	2	1	2
+BATCH-4772	2	1	2
+BATCH-1276	2	1	2
+BATCH-3036	2	1	2
+BATCH-1364	2	1	2
+BATCH-7294	2	1	2
+BATCH-4633	2	1	2
+BATCH-4907	2	1	2
+BATCH-5086	2	1	2
+BATCH-7759	2	1	2
+BATCH-4562	2	1	2
+BATCH-8552	2	1	2
+BATCH-9841	2	1	2
+BATCH-8770	2	1	2
+BATCH-2229	2	1	2
+BATCH-8550	2	1	2
+BATCH-6786	2	1	2
+BATCH-7408	2	1	2
+BATCH-8134	2	1	2
+BATCH-9447	2	1	2
+BATCH-8232	2	1	2
+BATCH-3292	2	1	2
+BATCH-3355	2	1	2
+BATCH-1171	2	1	2
+BATCH-4111	2	1	2
+BATCH-7339	2	1	2
+BATCH-8835	2	1	2
+BATCH-1780	2	1	2
+BATCH-6307	2	1	2
+BATCH-2137	2	1	2
+BATCH-5229	2	1	2
+BATCH-7680	2	1	2
+BATCH-2281	2	1	2
+BATCH-6116	2	1	2
+BATCH-1994	2	1	2
+BATCH-9677	2	1	2
+BATCH-5419	1	3	3
+BATCH-3544	1	2	2
+BATCH-6836	1	2	2
+BATCH-6614	1	2	2
+BATCH-6834	1	2	2
+BATCH-3282	1	2	2
+BATCH-6665	1	2	2
+BATCH-8887	1	2	2
+BATCH-7663	1	2	2
+BATCH-5276	1	2	2
+BATCH-4650	1	2	2
+BATCH-7726	1	2	2
+BATCH-8436	1	2	2
+BATCH-5934	1	2	2
+BATCH-3448	1	2	2
+BATCH-1295	1	2	2
+BATCH-9715	1	2	2
+BATCH-2442	1	2	2
+BATCH-4848	1	2	2
+BATCH-2775	1	2	2
+BATCH-4217	1	2	2
+BATCH-2707	1	2	2
+BATCH-6556	1	2	2
+BATCH-3106	1	2	2
+BATCH-5676	1	2	2
+BATCH-6862	1	2	2
+BATCH-1736	1	2	2
+BATCH-4281	1	2	2
+BATCH-2891	1	2	2
+BATCH-1184	1	2	2
+BATCH-1562	1	2	2
+BATCH-2426	1	2	2
+BATCH-6225	1	2	2
+BATCH-3727	1	2	2
+BATCH-5143	1	2	2
+Duplicate_Transaction_IDs	Null_Value_Rows	Negative_Value_Rows	Inconsistent_Quantity_Rows	Return_Exception_Rows	Pricing_Exception_Rows	Date_Conversion_Failures
+0	0	0	3	9	0	0
+Total_Transactions
+5000
+Total_Received	Total_Dispatched
+2614361	1353875
+Total_Damaged_Units	Total_Missing_Units	Total_Customer_Returns
+99324	50504	62822
+Avg_Received_Per_Transaction	Avg_Dispatched_Per_Transaction
+522.87	270.78
+Min_Unit_Cost	Max_Unit_Cost	Avg_Unit_Cost	Min_Selling_Price	Max_Selling_Price	Avg_Selling_Price
+5.07	1199.71	598.62	8.13	2135.08	869.38
+Min_Delivery_Days	Max_Delivery_Days	Avg_Delivery_Days
+1	10	5.53
+Total_Remaining_Stock
+1110658
+Total_Inventory_Loss_Units	Overall_Loss_Percentage
+149828	5.73
+Total_Estimated_Sales_Value_GBP	Total_Dispatched_Inventory_Cost_GBP	Total_Estimated_Gross_Profit_GBP	Total_Inventory_Loss_Value_GBP
+1170728632.87	808422287.40	362306345.47	89754534.13
+Overall_Return_Percentage	Overall_Audit_Failure_Rate	Overall_On_Time_Dispatch_Rate
+4.64	15.42	29.84
+Inventory_Type	Transaction_Count	Percentage_Of_Total
+Outbound	2540	50.80
+Inbound	2460	49.20
+Inventory_Type	Total_Received	Total_Dispatched
+Inbound	1297489	680636
+Outbound	1316872	673239
+Transaction_ID	Quantity_Received	Quantity_Dispatched	Damaged_Units	Missing_Units	Remaining_Stock_Units
+TXN101345	972	24	11	4	933
+TXN104375	997	24	33	20	920
+TXN100415	973	29	11	13	920
+TXN100586	979	35	17	8	919
+TXN103567	974	31	19	5	919
+TXN103866	985	49	15	10	911
+TXN100905	996	82	2	6	906
+TXN100473	998	77	6	11	904
+TXN101785	973	50	10	14	899
+TXN100613	942	25	17	6	894
+TXN100630	940	28	10	13	889
+TXN100742	961	39	20	16	886
+TXN104334	964	52	14	12	886
+TXN101662	972	59	23	5	885
+TXN104811	976	73	7	15	881
+TXN101596	928	21	16	11	880
+TXN100606	984	75	17	15	877
+TXN103932	952	37	19	20	876
+TXN100012	974	80	10	12	872
+TXN102205	950	72	0	9	869
+TXN103204	1000	76	35	20	869
+TXN100083	957	62	20	9	866
+TXN103303	959	54	28	15	862
+TXN103336	952	62	21	9	860
+TXN100197	945	60	18	11	856
+TXN103699	950	74	3	17	856
+TXN100142	945	53	28	8	856
+TXN102460	969	75	34	6	854
+TXN102083	922	38	20	16	848
+TXN100512	993	132	3	11	847
+TXN100427	895	26	23	0	846
+TXN103252	934	84	1	4	845
+TXN104887	923	63	3	14	843
+TXN102930	993	107	38	5	843
+TXN101752	993	126	13	13	841
+TXN104089	937	79	1	17	840
+TXN103614	982	118	21	5	838
+TXN102513	921	40	35	8	838
+TXN104640	949	76	20	17	836
+TXN102819	920	41	27	17	835
+TXN103070	940	87	2	17	834
+TXN101583	898	49	9	6	834
+TXN101959	973	92	37	10	834
+TXN102497	939	80	13	15	831
+TXN101733	901	54	0	16	831
+TXN100565	909	75	5	1	828
+TXN103391	952	108	0	18	826
+TXN101789	941	90	26	1	824
+TXN104581	888	20	35	9	824
+TXN102404	892	39	22	7	824
+Transaction_ID	Remaining_Stock_Units	Stock_Level_Classification
+TXN101345	933	High
+TXN104375	920	High
+TXN100415	920	High
+TXN100586	919	High
+TXN103567	919	High
+TXN103866	911	High
+TXN100905	906	High
+TXN100473	904	High
+TXN101785	899	High
+TXN100613	894	High
+TXN100630	889	High
+TXN100742	886	High
+TXN104334	886	High
+TXN101662	885	High
+TXN104811	881	High
+TXN101596	880	High
+TXN100606	877	High
+TXN103932	876	High
+TXN100012	872	High
+TXN102205	869	High
+TXN103204	869	High
+TXN100083	866	High
+TXN103303	862	High
+TXN103336	860	High
+TXN100197	856	High
+TXN103699	856	High
+TXN100142	856	High
+TXN102460	854	High
+TXN102083	848	High
+TXN100512	847	High
+TXN100427	846	High
+TXN103252	845	High
+TXN104887	843	High
+TXN102930	843	High
+TXN101752	841	High
+TXN104089	840	High
+TXN103614	838	High
+TXN102513	838	High
+TXN104640	836	High
+TXN102819	835	High
+TXN103070	834	High
+TXN101583	834	High
+TXN101959	834	High
+TXN102497	831	High
+TXN101733	831	High
+TXN100565	828	High
+TXN103391	826	High
+TXN101789	824	High
+TXN104581	824	High
+TXN102404	824	High
+Negative_Remaining_Stock_Count	Zero_Remaining_Stock_Count	Positive_Remaining_Stock_Count
+574	19	4407
+Transaction_ID	Warehouse_Name	Product_Name	Remaining_Stock_Units
+TXN101345	London Central Hub	Sneakers	933
+TXN100415	Manchester Storage	Jacket	920
+TXN104375	Liverpool Logistics	Cough Syrup	920
+TXN103567	Leeds Fulfillment	Jacket	919
+TXN100586	Bristol Supply Hub	Cooking Oil	919
+TXN103866	London Central Hub	Smartphone	911
+TXN100905	Manchester Storage	Air Fryer	906
+TXN100473	Glasgow Warehouse	Jeans	904
+TXN101785	Birmingham Distribution	Coffee	899
+TXN100613	Liverpool Logistics	Bandages	894
+TXN100630	Leeds Fulfillment	Smartphone	889
+TXN104334	Bristol Supply Hub	Cooking Oil	886
+TXN100742	Newcastle Depot	Air Fryer	886
+TXN101662	London Central Hub	Keyboard	885
+TXN104811	Newcastle Depot	Laptop	881
+TXN101596	Bristol Supply Hub	Cooking Oil	880
+TXN100606	Liverpool Logistics	Sneakers	877
+TXN103932	Glasgow Warehouse	Tea Bags	876
+TXN100012	Newcastle Depot	Tea Bags	872
+TXN102205	Manchester Storage	Vacuum Cleaner	869
+Transaction_ID	Warehouse_Name	Product_Name	Inventory_Loss_Units
+TXN102981	Newcastle Depot	Mixer	60
+TXN102075	Liverpool Logistics	Cooking Oil	60
+TXN103583	Birmingham Distribution	Cooking Oil	60
+TXN103843	Bristol Supply Hub	Microwave	60
+TXN104041	Leeds Fulfillment	Microwave	60
+TXN100648	Newcastle Depot	Paracetamol	60
+TXN103582	Leeds Fulfillment	Bandages	60
+TXN102672	Birmingham Distribution	T-Shirt	60
+TXN103372	Bristol Supply Hub	Paracetamol	59
+TXN102420	Bristol Supply Hub	Tea Bags	59
+TXN102932	London Central Hub	Sneakers	59
+TXN103988	Birmingham Distribution	Cereal	59
+TXN100080	Liverpool Logistics	Laptop	59
+TXN104064	Newcastle Depot	Microwave	59
+TXN103461	Newcastle Depot	Cereal	59
+TXN100869	Glasgow Warehouse	Monitor	59
+TXN103323	Manchester Storage	Keyboard	59
+TXN104240	Glasgow Warehouse	Smartphone	59
+TXN103031	London Central Hub	Vitamin Tablets	59
+TXN102771	Newcastle Depot	Monitor	59
+Overall_Damage_Percentage	Overall_Missing_Percentage
+3.80	1.93
+Warehouse_Name	Transaction_Count
+Birmingham Distribution	646
+Bristol Supply Hub	636
+Newcastle Depot	632
+Leeds Fulfillment	631
+Glasgow Warehouse	627
+London Central Hub	614
+Manchester Storage	612
+Liverpool Logistics	602
+Warehouse_Name	Total_Received	Total_Dispatched	Total_Remaining_Stock
+Birmingham Distribution	338220	172244	146208
+Leeds Fulfillment	337096	182717	135782
+Glasgow Warehouse	333648	177039	137976
+Newcastle Depot	331258	175908	136171
+Bristol Supply Hub	327289	167564	140734
+Manchester Storage	324524	167579	138624
+London Central Hub	314845	153148	143899
+Liverpool Logistics	307481	157676	131264
+Warehouse_Name	Avg_Received_Per_Transaction	Avg_Dispatched_Per_Transaction
+Leeds Fulfillment	534.23	289.57
+Glasgow Warehouse	532.13	282.36
+Newcastle Depot	524.14	278.34
+Manchester Storage	530.27	273.82
+Birmingham Distribution	523.56	266.63
+Bristol Supply Hub	514.61	263.47
+Liverpool Logistics	510.77	261.92
+London Central Hub	512.78	249.43
+Warehouse_Name	Total_Dispatched	Dispatch_Volume_Rank
+Leeds Fulfillment	182717	1
+Glasgow Warehouse	177039	2
+Newcastle Depot	175908	3
+Birmingham Distribution	172244	4
+Manchester Storage	167579	5
+Bristol Supply Hub	167564	6
+Liverpool Logistics	157676	7
+London Central Hub	153148	8
+Warehouse_Name	Total_Received	Total_Dispatched	Inventory_Conversion_Ratio
+Leeds Fulfillment	337096	182717	0.542
+Glasgow Warehouse	333648	177039	0.531
+Newcastle Depot	331258	175908	0.531
+Manchester Storage	324524	167579	0.516
+Liverpool Logistics	307481	157676	0.513
+Bristol Supply Hub	327289	167564	0.512
+Birmingham Distribution	338220	172244	0.509
+London Central Hub	314845	153148	0.486
+Warehouse_Name	Total_Damaged_Units	Total_Missing_Units	Total_Loss_Units	Loss_Percentage
+Liverpool Logistics	12374	6167	18541	6.03
+Birmingham Distribution	13049	6719	19768	5.84
+Bristol Supply Hub	12581	6410	18991	5.80
+Newcastle Depot	12689	6490	19179	5.79
+London Central Hub	11753	6045	17798	5.65
+Manchester Storage	12121	6200	18321	5.65
+Glasgow Warehouse	12316	6317	18633	5.58
+Leeds Fulfillment	12441	6156	18597	5.52
+Warehouse_Name	Inventory_Loss_Value_GBP
+Birmingham Distribution	12096261.62
+Newcastle Depot	11783978.35
+Leeds Fulfillment	11444300.62
+Bristol Supply Hub	11398867.96
+Glasgow Warehouse	11022630.60
+Manchester Storage	10871923.78
+Liverpool Logistics	10694845.26
+London Central Hub	10441725.94
+Warehouse_Name	Total_Customer_Returns	Return_Percentage
+London Central Hub	7666	5.01
+Bristol Supply Hub	8014	4.78
+Liverpool Logistics	7456	4.73
+Birmingham Distribution	8002	4.65
+Manchester Storage	7769	4.64
+Newcastle Depot	7900	4.49
+Glasgow Warehouse	7917	4.47
+Leeds Fulfillment	8098	4.43
+Warehouse_Name	On_Time_Count	Slightly_Delayed_Count	Delayed_Count
+Birmingham Distribution	211	172	263
+Bristol Supply Hub	172	194	270
+Glasgow Warehouse	212	169	246
+Leeds Fulfillment	183	190	258
+Liverpool Logistics	169	179	254
+London Central Hub	187	186	241
+Manchester Storage	172	205	235
+Newcastle Depot	186	172	274
+Warehouse_Name	Avg_Delivery_Days	On_Time_Dispatch_Rate
+Glasgow Warehouse	5.35	33.81
+Birmingham Distribution	5.43	32.66
+London Central Hub	5.47	30.46
+Newcastle Depot	5.60	29.43
+Leeds Fulfillment	5.54	29.00
+Manchester Storage	5.49	28.10
+Liverpool Logistics	5.66	28.07
+Bristol Supply Hub	5.68	27.04
+Warehouse_Name	Audit_Failure_Count	Audit_Failure_Rate
+Liverpool Logistics	109	18.11
+Bristol Supply Hub	111	17.45
+Birmingham Distribution	108	16.72
+Glasgow Warehouse	103	16.43
+Newcastle Depot	99	15.66
+Manchester Storage	85	13.89
+Leeds Fulfillment	81	12.84
+London Central Hub	75	12.21
+Warehouse_Name	Loss_Percentage	Audit_Failure_Rate	On_Time_Dispatch_Rate	Performance_Score	Performance_Category
+Glasgow Warehouse	5.58	16.43	33.81	4	Moderate Performance
+London Central Hub	5.65	12.21	30.46	4	Moderate Performance
+Birmingham Distribution	5.84	16.72	32.66	4	Moderate Performance
+Manchester Storage	5.65	13.89	28.10	3	Moderate Performance
+Bristol Supply Hub	5.80	17.45	27.04	3	Moderate Performance
+Liverpool Logistics	6.03	18.11	28.07	3	Moderate Performance
+Leeds Fulfillment	5.52	12.84	29.00	3	Moderate Performance
+Newcastle Depot	5.79	15.66	29.43	3	Moderate Performance
+Warehouse_Name	Loss_Percentage	Avg_Delivery_Days
+Liverpool Logistics	6.03	5.66
+Bristol Supply Hub	5.80	5.68
+Newcastle Depot	5.79	5.60
+Product_Category	Transaction_Count	Percentage_Of_Total
+Pharma	1007	20.14
+Home Appliances	1006	20.12
+Grocery	999	19.98
+Electronics	998	19.96
+Fashion	990	19.80
+Product_Category	Total_Received	Total_Dispatched	Total_Remaining_Stock
+Electronics	540798	279298	231724
+Pharma	527791	274393	223338
+Home Appliances	522164	269066	222719
+Grocery	513843	267159	217314
+Fashion	509765	263959	215563
+Product_Category	Total_Loss_Units	Loss_Percentage	Loss_Value_GBP
+Fashion	30243	5.93	18594016.36
+Home Appliances	30379	5.82	17797869.12
+Grocery	29370	5.72	17637286.68
+Pharma	30060	5.70	17811164.43
+Electronics	29776	5.51	17914197.54
+Product_Category	Total_Customer_Returns	Return_Percentage
+Home Appliances	12930	4.81
+Grocery	12630	4.73
+Fashion	12238	4.64
+Pharma	12440	4.53
+Electronics	12584	4.51
+Product_Category	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Pharma	244691702.07	77050747.46
+Electronics	243922283.06	75832460.32
+Home Appliances	226023145.67	70334450.19
+Grocery	226590592.77	69545919.82
+Fashion	229500909.30	69542767.68
+Product_Category	Avg_Delivery_Days	On_Time_Dispatch_Rate
+Grocery	5.44	31.33
+Fashion	5.47	30.91
+Pharma	5.60	29.29
+Electronics	5.59	29.16
+Home Appliances	5.54	28.53
+Product_Category	Temperature_Controlled	Transaction_Count	Loss_Percentage	Audit_Failure_Rate	Avg_Delivery_Days
+Electronics	No	502	5.45	15.14	5.78
+Electronics	Yes	496	5.57	15.52	5.40
+Fashion	No	473	6.12	16.07	5.47
+Fashion	Yes	517	5.77	15.67	5.47
+Grocery	No	479	5.77	12.53	5.42
+Grocery	Yes	520	5.66	14.62	5.45
+Home Appliances	No	508	5.84	15.94	5.43
+Home Appliances	Yes	498	5.80	18.88	5.65
+Pharma	No	507	5.75	16.37	5.70
+Pharma	Yes	500	5.64	13.40	5.51
+Product_Name	Product_Category	Total_Dispatched
+Cough Syrup	Pharma	75352
+Vacuum Cleaner	Home Appliances	74406
+Vitamin Tablets	Pharma	70229
+Mixer	Home Appliances	67566
+Air Fryer	Home Appliances	66645
+Paracetamol	Pharma	64886
+Bandages	Pharma	63926
+Keyboard	Electronics	61037
+Microwave	Home Appliances	60449
+Tablet	Electronics	57855
+T-Shirt	Fashion	57590
+Cooking Oil	Grocery	56033
+Jacket	Fashion	55827
+Rice Pack	Grocery	55754
+Laptop	Electronics	54559
+Product_Name	Product_Category	Estimated_Sales_Value_GBP
+Cough Syrup	Pharma	66344902.51
+Vitamin Tablets	Pharma	63857100.67
+Vacuum Cleaner	Home Appliances	60490755.32
+Paracetamol	Pharma	59037589.04
+Mixer	Home Appliances	58354986.54
+Keyboard	Electronics	56005500.61
+Bandages	Pharma	55452109.85
+Air Fryer	Home Appliances	53634095.96
+Microwave	Home Appliances	53543307.85
+Tablet	Electronics	50921916.07
+T-Shirt	Fashion	50361351.36
+Jacket	Fashion	47376647.01
+Monitor	Electronics	47344401.52
+Coffee	Grocery	46727589.25
+Jeans	Fashion	46242900.68
+Product_Name	Product_Category	Estimated_Gross_Profit_GBP
+Cough Syrup	Pharma	20626720.96
+Vitamin Tablets	Pharma	20245907.37
+Paracetamol	Pharma	18781423.65
+Mixer	Home Appliances	18546292.93
+Vacuum Cleaner	Home Appliances	18169377.90
+Keyboard	Electronics	17803697.43
+Bandages	Pharma	17396695.48
+Microwave	Home Appliances	16930421.30
+Air Fryer	Home Appliances	16688358.06
+Tablet	Electronics	15546611.52
+T-Shirt	Fashion	15355231.93
+Jacket	Fashion	14870150.56
+Cereal	Grocery	14733983.55
+Monitor	Electronics	14710304.99
+Laptop	Electronics	14292958.45
+Product_Name	Product_Category	Total_Received	Total_Loss_Units	Loss_Percentage
+Jacket	Fashion	102834	6351	6.18
+T-Shirt	Fashion	108887	6693	6.15
+Coffee	Grocery	99729	6125	6.14
+Air Fryer	Home Appliances	136832	8281	6.05
+Cereal	Grocery	101390	6024	5.94
+Bandages	Pharma	121710	7191	5.91
+Microwave	Home Appliances	115506	6816	5.90
+Handbag	Fashion	101380	5972	5.89
+Sneakers	Fashion	91441	5354	5.86
+Vacuum Cleaner	Home Appliances	142945	8180	5.72
+Vitamin Tablets	Pharma	135663	7741	5.71
+Smartphone	Electronics	108128	6175	5.71
+Monitor	Electronics	103042	5866	5.69
+Tea Bags	Grocery	95392	5403	5.66
+Paracetamol	Pharma	128809	7219	5.60
+Product_Name	Product_Category	Total_Dispatched	Total_Customer_Returns	Return_Percentage
+Air Fryer	Home Appliances	66645	3521	5.28
+Handbag	Fashion	51020	2650	5.19
+Rice Pack	Grocery	55754	2757	4.94
+Cereal	Grocery	53339	2565	4.81
+Smartphone	Electronics	54435	2621	4.81
+Coffee	Grocery	53969	2585	4.79
+Monitor	Electronics	51412	2427	4.72
+Microwave	Home Appliances	60449	2855	4.72
+Tea Bags	Grocery	48064	2256	4.69
+Mixer	Home Appliances	67566	3164	4.68
+Paracetamol	Pharma	64886	3028	4.67
+Cough Syrup	Pharma	75352	3505	4.65
+Jeans	Fashion	50162	2314	4.61
+Sneakers	Fashion	49360	2272	4.60
+Vacuum Cleaner	Home Appliances	74406	3390	4.56
+Product_Name	Product_Category	Product_Loss_Percentage	Category_Avg_Loss_Percentage	Variance_From_Category_Avg	Benchmark_Result
+Coffee	Grocery	6.14	5.72	0.42	Underperforms Category
+Jacket	Fashion	6.18	5.93	0.25	Underperforms Category
+Air Fryer	Home Appliances	6.05	5.82	0.23	Underperforms Category
+Cereal	Grocery	5.94	5.72	0.22	Underperforms Category
+T-Shirt	Fashion	6.15	5.93	0.22	Underperforms Category
+Bandages	Pharma	5.91	5.70	0.21	Underperforms Category
+Smartphone	Electronics	5.71	5.51	0.20	Underperforms Category
+Monitor	Electronics	5.69	5.51	0.18	Underperforms Category
+Microwave	Home Appliances	5.90	5.82	0.08	Underperforms Category
+Vitamin Tablets	Pharma	5.71	5.70	0.01	Underperforms Category
+Handbag	Fashion	5.89	5.93	-0.04	Outperforms or Matches Category
+Keyboard	Electronics	5.45	5.51	-0.06	Outperforms or Matches Category
+Tea Bags	Grocery	5.66	5.72	-0.06	Outperforms or Matches Category
+Sneakers	Fashion	5.86	5.93	-0.07	Outperforms or Matches Category
+Vacuum Cleaner	Home Appliances	5.72	5.82	-0.10	Outperforms or Matches Category
+Paracetamol	Pharma	5.60	5.70	-0.10	Outperforms or Matches Category
+Cough Syrup	Pharma	5.59	5.70	-0.11	Outperforms or Matches Category
+Tablet	Electronics	5.35	5.51	-0.16	Outperforms or Matches Category
+Laptop	Electronics	5.33	5.51	-0.18	Outperforms or Matches Category
+Rice Pack	Grocery	5.53	5.72	-0.19	Outperforms or Matches Category
+Mixer	Home Appliances	5.60	5.82	-0.22	Outperforms or Matches Category
+Jeans	Fashion	5.58	5.93	-0.35	Outperforms or Matches Category
+Cooking Oil	Grocery	5.34	5.72	-0.38	Outperforms or Matches Category
+Product_Name	Product_Category	Estimated_Gross_Profit_GBP	Loss_Percentage	Risk_Value_Classification
+Cough Syrup	Pharma	20626720.96	5.59	High-Value / Low-Risk
+Vitamin Tablets	Pharma	20245907.37	5.71	High-Value / Low-Risk
+Paracetamol	Pharma	18781423.65	5.60	High-Value / Low-Risk
+Mixer	Home Appliances	18546292.93	5.60	High-Value / Low-Risk
+Vacuum Cleaner	Home Appliances	18169377.90	5.72	High-Value / Low-Risk
+Keyboard	Electronics	17803697.43	5.45	High-Value / Low-Risk
+Bandages	Pharma	17396695.48	5.91	High-Value / High-Risk
+Microwave	Home Appliances	16930421.30	5.90	High-Value / High-Risk
+Air Fryer	Home Appliances	16688358.06	6.05	High-Value / High-Risk
+Tablet	Electronics	15546611.52	5.35	Low-Value / Low-Risk
+T-Shirt	Fashion	15355231.93	6.15	Low-Value / High-Risk
+Jacket	Fashion	14870150.56	6.18	Low-Value / High-Risk
+Cereal	Grocery	14733983.55	5.94	Low-Value / High-Risk
+Monitor	Electronics	14710304.99	5.69	Low-Value / Low-Risk
+Laptop	Electronics	14292958.45	5.33	Low-Value / Low-Risk
+Jeans	Fashion	14251252.64	5.58	Low-Value / Low-Risk
+Tea Bags	Grocery	14194982.48	5.66	Low-Value / Low-Risk
+Coffee	Grocery	13891173.21	6.14	Low-Value / High-Risk
+Smartphone	Electronics	13478887.93	5.71	Low-Value / Low-Risk
+Rice Pack	Grocery	13394175.69	5.53	Low-Value / Low-Risk
+Cooking Oil	Grocery	13331604.89	5.34	Low-Value / Low-Risk
+Sneakers	Fashion	12989414.99	5.86	Low-Value / High-Risk
+Handbag	Fashion	12076717.56	5.89	Low-Value / High-Risk
+Supplier_Name	Transaction_Count	Total_Quantity_Received
+Prime Wholesale UK	658	348061
+Sainsbury Logistics	630	335037
+Northern Supply Chain	626	333882
+Britannia Pharma	630	332763
+London Trade Corp	616	323005
+Tesco Supply Ltd	610	317507
+UK Retail Goods	619	314432
+ASDA Distribution	611	309674
+Supplier_Name	Total_Damaged_Units	Total_Missing_Units	Total_Loss_Units	Loss_Percentage
+ASDA Distribution	12398	6293	18691	6.04
+UK Retail Goods	12302	6331	18633	5.93
+Tesco Supply Ltd	12339	6028	18367	5.78
+Prime Wholesale UK	13146	6833	19979	5.74
+London Trade Corp	12255	6156	18411	5.70
+Britannia Pharma	12597	6109	18706	5.62
+Northern Supply Chain	12292	6254	18546	5.55
+Sainsbury Logistics	11995	6500	18495	5.52
+Supplier_Name	Inventory_Loss_Value_GBP
+Prime Wholesale UK	11918368.06
+ASDA Distribution	11499495.58
+Northern Supply Chain	11450468.63
+London Trade Corp	11290614.31
+UK Retail Goods	10984025.96
+Britannia Pharma	10965739.23
+Sainsbury Logistics	10887114.01
+Tesco Supply Ltd	10758708.35
+Supplier_Name	Audit_Failure_Count	Audit_Failure_Rate
+Britannia Pharma	111	17.62
+UK Retail Goods	105	16.96
+Tesco Supply Ltd	98	16.07
+London Trade Corp	96	15.58
+Northern Supply Chain	97	15.50
+ASDA Distribution	88	14.40
+Sainsbury Logistics	88	13.97
+Prime Wholesale UK	88	13.37
+Supplier_Name	Total_Customer_Returns	Return_Percentage
+UK Retail Goods	7638	4.81
+London Trade Corp	7935	4.77
+Prime Wholesale UK	8355	4.71
+Northern Supply Chain	7894	4.65
+Britannia Pharma	8032	4.61
+ASDA Distribution	7765	4.60
+Sainsbury Logistics	7855	4.51
+Tesco Supply Ltd	7348	4.48
+Supplier_Name	Estimated_Gross_Profit_GBP
+London Trade Corp	48570057.87
+Northern Supply Chain	47083101.85
+Britannia Pharma	46483442.63
+ASDA Distribution	45818652.50
+Prime Wholesale UK	45460827.16
+Sainsbury Logistics	44458064.17
+Tesco Supply Ltd	42612594.02
+UK Retail Goods	41819605.27
+Supplier_Name	Total_Received	Loss_Percentage
+Prime Wholesale UK	348061	5.74
+Product_Category	Supplier_Name	Loss_Percentage	Loss_Rank_Within_Category
+Electronics	Tesco Supply Ltd	5.95	1
+Electronics	UK Retail Goods	5.88	2
+Electronics	Prime Wholesale UK	5.82	3
+Electronics	Britannia Pharma	5.52	4
+Electronics	ASDA Distribution	5.37	5
+Electronics	Sainsbury Logistics	5.30	6
+Electronics	London Trade Corp	5.22	7
+Electronics	Northern Supply Chain	5.10	8
+Fashion	ASDA Distribution	6.49	1
+Fashion	UK Retail Goods	6.33	2
+Fashion	Sainsbury Logistics	6.03	3
+Fashion	Britannia Pharma	5.87	4
+Fashion	Northern Supply Chain	5.83	5
+Fashion	Tesco Supply Ltd	5.76	6
+Fashion	London Trade Corp	5.72	7
+Fashion	Prime Wholesale UK	5.57	8
+Grocery	Northern Supply Chain	6.29	1
+Grocery	Prime Wholesale UK	6.22	2
+Grocery	ASDA Distribution	5.95	3
+Grocery	UK Retail Goods	5.76	4
+Grocery	London Trade Corp	5.66	5
+Grocery	Tesco Supply Ltd	5.60	6
+Grocery	Sainsbury Logistics	5.29	7
+Grocery	Britannia Pharma	5.07	8
+Home Appliances	Tesco Supply Ltd	6.56	1
+Home Appliances	ASDA Distribution	6.22	2
+Home Appliances	UK Retail Goods	6.17	3
+Home Appliances	Britannia Pharma	5.93	4
+Home Appliances	London Trade Corp	5.59	5
+Home Appliances	Northern Supply Chain	5.45	6
+Home Appliances	Prime Wholesale UK	5.34	7
+Home Appliances	Sainsbury Logistics	5.34	7
+Pharma	London Trade Corp	6.28	1
+Pharma	ASDA Distribution	6.24	2
+Pharma	Prime Wholesale UK	5.87	3
+Pharma	Sainsbury Logistics	5.72	4
+Pharma	Britannia Pharma	5.67	5
+Pharma	UK Retail Goods	5.47	6
+Pharma	Northern Supply Chain	5.25	7
+Pharma	Tesco Supply Ltd	5.10	8
+Supplier_Name	Loss_Percentage	Audit_Failure_Rate	Return_Percentage	Supplier_Classification
+ASDA Distribution	6.04	14.40	4.60	Monitor
+UK Retail Goods	5.93	16.96	4.81	Monitor
+Tesco Supply Ltd	5.78	16.07	4.48	Monitor
+Prime Wholesale UK	5.74	13.37	4.71	Monitor
+London Trade Corp	5.70	15.58	4.77	Monitor
+Britannia Pharma	5.62	17.62	4.61	Monitor
+Northern Supply Chain	5.55	15.50	4.65	Monitor
+Sainsbury Logistics	5.52	13.97	4.51	Monitor
+Dispatch_Status	Transaction_Count	Percentage_Of_Total
+Delayed	2041	40.82
+On Time	1492	29.84
+Slightly Delayed	1467	29.34
+Dispatch_Status	Avg_Delivery_Days
+On Time	2.01
+Slightly Delayed	5.00
+Delayed	8.49
+Dispatch_Status	Min_Delivery_Days	Max_Delivery_Days
+Delayed	7	10
+On Time	1	3
+Slightly Delayed	4	6
+Transaction_ID	Delivery_Days	Delivery_Speed_Band
+TXN100228	10	Critical
+TXN100321	10	Critical
+TXN100229	10	Critical
+TXN100298	10	Critical
+TXN100328	10	Critical
+TXN100312	10	Critical
+TXN100177	10	Critical
+TXN100157	10	Critical
+TXN100266	10	Critical
+TXN100522	10	Critical
+TXN100027	10	Critical
+TXN100170	10	Critical
+TXN100038	10	Critical
+TXN100342	10	Critical
+TXN100497	10	Critical
+TXN100099	10	Critical
+TXN100047	10	Critical
+TXN100431	10	Critical
+TXN100408	10	Critical
+TXN100094	10	Critical
+TXN100388	10	Critical
+TXN100199	10	Critical
+TXN100041	10	Critical
+TXN100040	10	Critical
+TXN100221	10	Critical
+TXN100552	10	Critical
+TXN100106	10	Critical
+TXN100212	10	Critical
+TXN100062	10	Critical
+TXN100511	10	Critical
+TXN100233	10	Critical
+TXN100500	10	Critical
+TXN100079	10	Critical
+TXN100168	10	Critical
+TXN100296	10	Critical
+TXN100095	10	Critical
+TXN100533	10	Critical
+TXN100225	10	Critical
+TXN100315	10	Critical
+TXN100065	10	Critical
+TXN100458	10	Critical
+TXN100060	10	Critical
+TXN100382	10	Critical
+TXN100440	10	Critical
+TXN100018	10	Critical
+TXN100527	10	Critical
+TXN100406	10	Critical
+TXN100015	10	Critical
+TXN100384	10	Critical
+TXN100354	10	Critical
+Warehouse_Name	On_Time	Slightly_Delayed	Delayed_Count
+Birmingham Distribution	211	172	263
+Bristol Supply Hub	172	194	270
+Glasgow Warehouse	212	169	246
+Leeds Fulfillment	183	190	258
+Liverpool Logistics	169	179	254
+London Central Hub	187	186	241
+Manchester Storage	172	205	235
+Newcastle Depot	186	172	274
+Product_Category	On_Time	Slightly_Delayed	Delayed_Count
+Electronics	291	289	418
+Fashion	306	291	393
+Grocery	313	296	390
+Home Appliances	287	310	409
+Pharma	295	281	431
+Supplier_Name	On_Time	Slightly_Delayed	Delayed_Count
+ASDA Distribution	205	178	228
+Britannia Pharma	180	191	259
+London Trade Corp	182	181	253
+Northern Supply Chain	197	182	247
+Prime Wholesale UK	185	213	260
+Sainsbury Logistics	203	176	251
+Tesco Supply Ltd	169	183	258
+UK Retail Goods	171	163	285
+Dispatch_Status	Total_Customer_Returns	Total_Dispatched	Return_Percentage
+On Time	18620	397332	4.69
+Delayed	25593	553083	4.63
+Slightly Delayed	18609	403460	4.61
+Dispatch_Status	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Delayed	477388881.36	148358958.80
+On Time	347176566.41	105724875.54
+Slightly Delayed	346163185.10	108222511.13
+Transaction_ID	Warehouse_Name	Product_Name	Dispatch_Status	Delivery_Days
+TXN100168	Newcastle Depot	Tea Bags	Delayed	10
+TXN100065	Leeds Fulfillment	Cough Syrup	Delayed	10
+TXN100027	Bristol Supply Hub	Sneakers	Delayed	10
+TXN100040	Leeds Fulfillment	Cooking Oil	Delayed	10
+TXN100015	London Central Hub	Tablet	Delayed	10
+TXN100041	Leeds Fulfillment	Keyboard	Delayed	10
+TXN100177	Leeds Fulfillment	Monitor	Delayed	10
+TXN100018	Liverpool Logistics	Cooking Oil	Delayed	10
+TXN100106	Bristol Supply Hub	Rice Pack	Delayed	10
+TXN100094	Birmingham Distribution	Bandages	Delayed	10
+TXN100199	Birmingham Distribution	Air Fryer	Delayed	10
+TXN100038	London Central Hub	Vacuum Cleaner	Delayed	10
+TXN100157	Liverpool Logistics	Cough Syrup	Delayed	10
+TXN100095	Leeds Fulfillment	Jacket	Delayed	10
+TXN100047	Newcastle Depot	T-Shirt	Delayed	10
+TXN100062	Glasgow Warehouse	Laptop	Delayed	10
+TXN100060	Leeds Fulfillment	T-Shirt	Delayed	10
+TXN100079	London Central Hub	Smartphone	Delayed	10
+TXN100099	Birmingham Distribution	Vacuum Cleaner	Delayed	10
+TXN100170	Leeds Fulfillment	Sneakers	Delayed	10
+Warehouse_Name	Delayed_Percentage
+Newcastle Depot	43.35
+Bristol Supply Hub	42.45
+Liverpool Logistics	42.19
+Leeds Fulfillment	40.89
+Product_Category	Delayed_Percentage
+Pharma	42.80
+Electronics	41.88
+Employee_Handling	Transaction_Count
+Harry Johnson	651
+Oliver Smith	644
+Emily Harris	639
+George Brown	626
+Charlie Davies	625
+Amelia Clark	620
+Noah Wilson	615
+Jack Taylor	580
+Employee_Handling	Total_Received	Total_Dispatched
+Harry Johnson	347384	181553
+Emily Harris	332577	167678
+Noah Wilson	330082	165702
+Oliver Smith	327375	176686
+George Brown	325388	166432
+Charlie Davies	324287	166974
+Amelia Clark	324072	170149
+Jack Taylor	303196	158701
+Employee_Handling	Total_Loss_Units	Loss_Percentage	Loss_Value_GBP
+Oliver Smith	19512	5.96	11533733.87
+Charlie Davies	19206	5.92	11864647.96
+Emily Harris	19095	5.74	11683529.15
+George Brown	18691	5.74	11053301.36
+Jack Taylor	17413	5.74	10340539.97
+Amelia Clark	18447	5.69	10690256.60
+Noah Wilson	18369	5.56	10826733.21
+Harry Johnson	19095	5.50	11761792.01
+Employee_Handling	Avg_Delivery_Days	On_Time_Count	Slightly_Delayed_Count	Delayed_Count
+Charlie Davies	5.41	200	176	249
+Oliver Smith	5.47	200	183	261
+Noah Wilson	5.51	180	186	249
+Amelia Clark	5.54	184	179	257
+Jack Taylor	5.54	182	152	246
+Emily Harris	5.55	188	195	256
+George Brown	5.59	173	200	253
+Harry Johnson	5.61	185	196	270
+Employee_Handling	Audit_Failure_Count	Audit_Failure_Rate
+Charlie Davies	101	16.16
+Amelia Clark	100	16.13
+Jack Taylor	93	16.03
+Harry Johnson	104	15.98
+Emily Harris	101	15.81
+Oliver Smith	97	15.06
+George Brown	93	14.86
+Noah Wilson	82	13.33
+Employee_Handling	Total_Customer_Returns	Return_Percentage
+Charlie Davies	7981	4.78
+Jack Taylor	7555	4.76
+Emily Harris	7966	4.75
+Harry Johnson	8361	4.61
+Oliver Smith	8109	4.59
+Amelia Clark	7789	4.58
+George Brown	7614	4.57
+Noah Wilson	7447	4.49
+Employee_Handling	Loss_Percentage	Return_Percentage	Loss_Benchmark	Return_Benchmark
+Oliver Smith	5.96	4.59	Above-Average Loss	At or Below-Average Returns
+Charlie Davies	5.92	4.78	Above-Average Loss	Above-Average Returns
+Emily Harris	5.74	4.75	Above-Average Loss	Above-Average Returns
+Jack Taylor	5.74	4.76	Above-Average Loss	Above-Average Returns
+George Brown	5.74	4.57	Above-Average Loss	At or Below-Average Returns
+Amelia Clark	5.69	4.58	At or Below-Average Loss	At or Below-Average Returns
+Noah Wilson	5.56	4.49	At or Below-Average Loss	At or Below-Average Returns
+Harry Johnson	5.50	4.61	At or Below-Average Loss	At or Below-Average Returns
+Warehouse_Name	Employee_Handling	Total_Handled_Volume	Volume_Rank_Within_Warehouse	Loss_Percentage	Loss_Rank_Within_Warehouse	On_Time_Rate	OnTime_Rank_Within_Warehouse
+Birmingham Distribution	Harry Johnson	79052	1	5.38	2	33.33	4
+Birmingham Distribution	Oliver Smith	72769	2	5.47	3	37.78	2
+Birmingham Distribution	George Brown	67350	3	6.03	6	27.27	8
+Birmingham Distribution	Noah Wilson	63935	4	5.31	1	35.62	3
+Birmingham Distribution	Emily Harris	63183	5	5.58	4	37.97	1
+Birmingham Distribution	Jack Taylor	57352	6	6.16	7	30.26	5
+Birmingham Distribution	Charlie Davies	57307	7	5.87	5	29.17	7
+Birmingham Distribution	Amelia Clark	49516	8	7.57	8	29.33	6
+Bristol Supply Hub	Amelia Clark	85793	1	5.66	5	25.49	4
+Bristol Supply Hub	Charlie Davies	71299	2	5.80	6	29.67	3
+Bristol Supply Hub	Harry Johnson	60026	3	5.56	3	24.68	6
+Bristol Supply Hub	Emily Harris	59133	4	6.50	7	24.69	5
+Bristol Supply Hub	Oliver Smith	57070	5	5.25	1	34.33	2
+Bristol Supply Hub	George Brown	56905	6	6.63	8	19.51	8
+Bristol Supply Hub	Noah Wilson	54209	7	5.62	4	21.43	7
+Bristol Supply Hub	Jack Taylor	50418	8	5.37	2	39.39	1
+Glasgow Warehouse	Oliver Smith	78874	1	5.46	5	26.04	8
+Glasgow Warehouse	George Brown	68356	2	4.97	1	30.38	7
+Glasgow Warehouse	Harry Johnson	67459	3	5.16	2	33.78	6
+Glasgow Warehouse	Noah Wilson	61956	4	6.28	8	34.09	5
+Glasgow Warehouse	Emily Harris	61070	5	6.20	7	37.04	3
+Glasgow Warehouse	Jack Taylor	60105	6	5.36	3	34.25	4
+Glasgow Warehouse	Charlie Davies	59808	7	5.43	4	40.00	1
+Glasgow Warehouse	Amelia Clark	53059	8	5.92	6	38.03	2
+Leeds Fulfillment	Charlie Davies	68112	1	5.71	7	29.27	4
+Leeds Fulfillment	Amelia Clark	67762	2	5.50	3	26.19	5
+Leeds Fulfillment	Harry Johnson	67678	3	5.57	4	34.52	2
+Leeds Fulfillment	Jack Taylor	66322	4	5.65	5	25.00	7
+Leeds Fulfillment	Oliver Smith	65886	5	5.65	5	36.59	1
+Leeds Fulfillment	Emily Harris	65375	6	4.99	1	22.37	8
+Leeds Fulfillment	George Brown	64606	7	5.94	8	25.64	6
+Leeds Fulfillment	Noah Wilson	54072	8	5.08	2	32.31	3
+Liverpool Logistics	Oliver Smith	65157	1	6.28	7	27.91	6
+Liverpool Logistics	Harry Johnson	61676	2	5.79	3	19.75	8
+Liverpool Logistics	Jack Taylor	60955	3	5.59	2	28.00	5
+Liverpool Logistics	George Brown	60695	4	6.12	6	31.17	2
+Liverpool Logistics	Emily Harris	58507	5	5.80	4	27.27	7
+Liverpool Logistics	Noah Wilson	55676	6	5.81	5	28.57	4
+Liverpool Logistics	Amelia Clark	55034	7	5.28	1	32.26	1
+Liverpool Logistics	Charlie Davies	47457	8	7.87	8	31.08	3
+London Central Hub	George Brown	65734	1	5.00	1	37.50	1
+London Central Hub	Oliver Smith	62304	2	6.55	8	28.57	6
+London Central Hub	Charlie Davies	61570	3	5.72	6	32.93	3
+London Central Hub	Noah Wilson	60632	4	5.66	5	23.08	8
+London Central Hub	Amelia Clark	55815	5	5.36	2	32.00	4
+London Central Hub	Jack Taylor	54547	6	5.63	4	33.33	2
+London Central Hub	Emily Harris	54152	7	5.60	3	26.67	7
+London Central Hub	Harry Johnson	53239	8	5.75	7	29.73	5
+Manchester Storage	Noah Wilson	83383	1	5.35	3	28.28	4
+Manchester Storage	Emily Harris	77182	2	5.69	4	29.47	3
+Manchester Storage	Harry Johnson	63355	3	5.19	2	27.63	5
+Manchester Storage	Charlie Davies	58148	4	5.74	5	32.39	1
+Manchester Storage	Jack Taylor	56897	5	5.74	5	30.88	2
+Manchester Storage	Amelia Clark	54699	6	4.85	1	23.08	8
+Manchester Storage	Oliver Smith	51055	7	7.17	8	25.00	7
+Manchester Storage	George Brown	47384	8	5.84	7	27.27	6
+Newcastle Depot	Harry Johnson	76452	1	5.63	3	23.91	7
+Newcastle Depot	Amelia Clark	72543	2	5.71	6	32.56	3
+Newcastle Depot	Charlie Davies	67560	3	5.69	5	32.95	1
+Newcastle Depot	Noah Wilson	61921	4	5.45	1	30.56	5
+Newcastle Depot	Emily Harris	61653	5	5.66	4	29.33	6
+Newcastle Depot	George Brown	60790	6	5.60	2	22.37	8
+Newcastle Depot	Jack Taylor	55301	7	6.48	8	31.58	4
+Newcastle Depot	Oliver Smith	50946	8	6.35	7	32.84	2
+Storage_Section	Transaction_Count	Total_Received	Total_Remaining_Stock
+A1	619	314864	138028
+A2	630	332946	139453
+B1	605	316038	133489
+B2	611	316994	130692
+C1	613	329772	143527
+C2	625	334547	139203
+D1	668	342928	150397
+D2	629	326272	135869
+Storage_Section	Total_Loss_Units	Loss_Percentage	Loss_Value_GBP
+A1	18574	5.90	11311830.09
+B2	18622	5.87	10820206.90
+D1	20002	5.83	12345444.88
+D2	18964	5.81	11166655.96
+B1	18098	5.73	10731037.17
+C2	18802	5.62	11393296.34
+A2	18500	5.56	10999772.84
+C1	18266	5.54	10986289.95
+Storage_Section	Audit_Failure_Count	Audit_Failure_Rate
+C1	106	17.29
+D1	112	16.77
+B2	97	15.88
+D2	99	15.74
+B1	93	15.37
+A1	93	15.02
+C2	89	14.24
+A2	82	13.02
+Storage_Section	Total_Customer_Returns	Return_Percentage
+B1	8140	4.95
+A1	7795	4.93
+D1	8341	4.83
+C1	7722	4.60
+D2	7767	4.53
+C2	7875	4.46
+B2	7424	4.43
+A2	7758	4.43
+Temperature_Controlled	Transaction_Count	Total_Received_Units
+No	2469	1287824
+Yes	2531	1326537
+Temperature_Controlled	Loss_Percentage	Audit_Failure_Rate	Return_Percentage
+No	5.77	15.23	4.76
+Yes	5.69	15.61	4.53
+Temperature_Controlled	Avg_Delivery_Days	Delayed_Percentage
+No	5.56	42.00
+Yes	5.50	39.67
+Product_Category	Temperature_Controlled	Transaction_Count	Loss_Percentage	Avg_Delivery_Days
+Electronics	No	502	5.45	5.78
+Electronics	Yes	496	5.57	5.40
+Fashion	No	473	6.12	5.47
+Fashion	Yes	517	5.77	5.47
+Grocery	No	479	5.77	5.42
+Grocery	Yes	520	5.66	5.45
+Home Appliances	No	508	5.84	5.43
+Home Appliances	Yes	498	5.80	5.65
+Pharma	No	507	5.75	5.70
+Pharma	Yes	500	5.64	5.51
+Stock_Audit_Status	Transaction_Count	Percentage_Of_Total
+Failed	771	15.42
+Passed	4229	84.58
+Stock_Audit_Status	Loss_Percentage
+Failed	5.71
+Passed	5.74
+Stock_Audit_Status	Missing_Percentage	Damage_Percentage
+Failed	2.00	3.70
+Passed	1.92	3.82
+Stock_Audit_Status	Return_Percentage	Avg_Delivery_Days
+Failed	4.71	5.53
+Passed	4.63	5.53
+Transaction_ID	Warehouse_Name	Product_Name	Supplier_Name	Estimated_Sales_Value_GBP	Stock_Audit_Status
+TXN102429	Bristol Supply Hub	Mixer	ASDA Distribution	1488055.20	Failed
+TXN101381	Manchester Storage	Tea Bags	Britannia Pharma	1462631.20	Failed
+TXN101495	Bristol Supply Hub	Jeans	ASDA Distribution	1387486.44	Failed
+TXN102287	Leeds Fulfillment	Tea Bags	ASDA Distribution	1308668.32	Failed
+TXN100331	Glasgow Warehouse	Vitamin Tablets	ASDA Distribution	1231518.47	Failed
+TXN104078	Glasgow Warehouse	Bandages	Prime Wholesale UK	1224685.41	Failed
+TXN104054	Leeds Fulfillment	Sneakers	Tesco Supply Ltd	1224571.11	Failed
+TXN103338	Bristol Supply Hub	Sneakers	Sainsbury Logistics	1209167.01	Failed
+TXN103296	Bristol Supply Hub	Paracetamol	UK Retail Goods	1181803.68	Failed
+TXN100079	London Central Hub	Smartphone	UK Retail Goods	1131802.98	Failed
+TXN102068	Birmingham Distribution	Bandages	Tesco Supply Ltd	1125116.69	Failed
+TXN100838	Birmingham Distribution	Coffee	Prime Wholesale UK	1102978.80	Failed
+TXN100686	Bristol Supply Hub	Tablet	Britannia Pharma	1101421.53	Failed
+TXN103698	Newcastle Depot	Vitamin Tablets	Tesco Supply Ltd	1097484.08	Failed
+TXN102879	Glasgow Warehouse	Keyboard	ASDA Distribution	1080281.61	Failed
+TXN101779	Manchester Storage	Cooking Oil	Sainsbury Logistics	1037872.33	Failed
+TXN100588	London Central Hub	Coffee	ASDA Distribution	1023660.00	Failed
+TXN100572	Birmingham Distribution	Monitor	Northern Supply Chain	994744.14	Failed
+TXN100263	Newcastle Depot	Vitamin Tablets	Tesco Supply Ltd	929695.66	Failed
+TXN104821	Birmingham Distribution	Cereal	Northern Supply Chain	917970.48	Failed
+Total_Customer_Returns	Overall_Return_Percentage
+62822	4.64
+Warehouse_Name	Return_Percentage
+London Central Hub	5.01
+Bristol Supply Hub	4.78
+Liverpool Logistics	4.73
+Birmingham Distribution	4.65
+Manchester Storage	4.64
+Newcastle Depot	4.49
+Glasgow Warehouse	4.47
+Leeds Fulfillment	4.43
+Product_Category	Return_Percentage
+Home Appliances	4.81
+Grocery	4.73
+Fashion	4.64
+Pharma	4.53
+Electronics	4.51
+Product_Name	Return_Percentage
+Air Fryer	5.28
+Handbag	5.19
+Rice Pack	4.94
+Cereal	4.81
+Smartphone	4.81
+Coffee	4.79
+Microwave	4.72
+Monitor	4.72
+Tea Bags	4.69
+Mixer	4.68
+Paracetamol	4.67
+Cough Syrup	4.65
+Jeans	4.61
+Sneakers	4.60
+Vacuum Cleaner	4.56
+Supplier_Name	Return_Percentage
+UK Retail Goods	4.81
+London Trade Corp	4.77
+Prime Wholesale UK	4.71
+Northern Supply Chain	4.65
+Britannia Pharma	4.61
+ASDA Distribution	4.60
+Sainsbury Logistics	4.51
+Tesco Supply Ltd	4.48
+Employee_Handling	Return_Percentage
+Charlie Davies	4.78
+Jack Taylor	4.76
+Emily Harris	4.75
+Harry Johnson	4.61
+Oliver Smith	4.59
+Amelia Clark	4.58
+George Brown	4.57
+Noah Wilson	4.49
+Transaction_ID	Warehouse_Name	Product_Name	Quantity_Dispatched	Customer_Returns	Return_Percentage
+TXN101165	Birmingham Distribution	Air Fryer	21	24	114.29
+TXN102687	Liverpool Logistics	Laptop	22	25	113.64
+TXN100842	Manchester Storage	Cough Syrup	22	25	113.64
+TXN102579	Glasgow Warehouse	Handbag	22	25	113.64
+TXN103945	Manchester Storage	Tea Bags	20	22	110.00
+TXN100718	London Central Hub	Rice Pack	21	23	109.52
+TXN101675	Leeds Fulfillment	Cereal	22	24	109.09
+TXN103018	Manchester Storage	Cereal	22	23	104.55
+TXN103538	Manchester Storage	Keyboard	24	25	104.17
+TXN102918	Newcastle Depot	Cereal	24	24	100.00
+TXN100804	Leeds Fulfillment	Laptop	20	20	100.00
+TXN102456	London Central Hub	Microwave	25	25	100.00
+TXN101592	Newcastle Depot	Vitamin Tablets	20	20	100.00
+TXN104632	Liverpool Logistics	Sneakers	25	25	100.00
+TXN103436	Glasgow Warehouse	Microwave	21	21	100.00
+TXN101032	Birmingham Distribution	Rice Pack	25	24	96.00
+TXN104565	Manchester Storage	Cereal	20	19	95.00
+TXN104117	Leeds Fulfillment	Microwave	27	25	92.59
+TXN102256	Liverpool Logistics	Laptop	24	22	91.67
+TXN102887	Birmingham Distribution	Monitor	21	19	90.48
+Transaction_ID	Return_Percentage	Return_Risk_Category
+TXN101165	114.29	High
+TXN102579	113.64	High
+TXN102687	113.64	High
+TXN100842	113.64	High
+TXN103945	110.00	High
+TXN100718	109.52	High
+TXN101675	109.09	High
+TXN103018	104.55	High
+TXN103538	104.17	High
+TXN103436	100.00	High
+TXN100804	100.00	High
+TXN104632	100.00	High
+TXN101592	100.00	High
+TXN102456	100.00	High
+TXN102918	100.00	High
+TXN101032	96.00	High
+TXN104565	95.00	High
+TXN104117	92.59	High
+TXN102256	91.67	High
+TXN102887	90.48	High
+TXN100803	90.00	High
+TXN101663	88.00	High
+TXN103594	87.50	High
+TXN103925	86.96	High
+TXN100816	86.21	High
+TXN101434	85.71	High
+TXN104202	85.71	High
+TXN101710	85.71	High
+TXN100458	85.19	High
+TXN101224	85.19	High
+TXN100039	85.00	High
+TXN104507	84.00	High
+TXN101471	83.33	High
+TXN103847	82.14	High
+TXN102517	81.48	High
+TXN101763	81.48	High
+TXN101596	80.95	High
+TXN104764	80.00	High
+TXN103510	78.57	High
+TXN101009	78.26	High
+TXN104243	77.42	High
+TXN100485	76.67	High
+TXN100398	76.67	High
+TXN101339	76.00	High
+TXN103526	75.76	High
+TXN101879	75.00	High
+TXN104861	75.00	High
+TXN102590	74.19	High
+TXN103160	74.19	High
+TXN104493	73.91	High
+Dispatch_Status	Stock_Audit_Status	Temperature_Controlled	Return_Percentage
+On Time	Failed	No	5.49
+Slightly Delayed	Failed	Yes	4.99
+Slightly Delayed	Passed	No	4.87
+On Time	Passed	No	4.75
+Delayed	Failed	No	4.69
+Delayed	Passed	Yes	4.66
+Delayed	Passed	No	4.65
+On Time	Failed	Yes	4.63
+On Time	Passed	Yes	4.50
+Slightly Delayed	Failed	No	4.41
+Slightly Delayed	Passed	Yes	4.35
+Delayed	Failed	Yes	4.30
+Transaction_ID	Estimated_Sales_Value_GBP	Dispatched_Inventory_Cost_GBP	Estimated_Gross_Profit_GBP
+TXN101179	1761100.00	1030356.80	730743.20
+TXN101511	1486911.36	831355.47	655555.89
+TXN100532	1598017.60	969942.40	628075.20
+TXN102429	1488055.20	880485.06	607570.14
+TXN102287	1308668.32	734707.20	573961.12
+TXN104935	1433753.30	873830.52	559922.78
+TXN101103	1300903.50	744854.50	556049.00
+TXN103049	1350361.74	802842.60	547519.14
+TXN100108	1264479.84	719091.36	545388.48
+TXN104937	1389660.80	844595.84	545064.96
+TXN101381	1462631.20	920996.00	541635.20
+TXN101522	1339163.32	804833.92	534329.40
+TXN101670	1356639.90	831386.16	525253.74
+TXN101495	1387486.44	869747.04	517739.40
+TXN101431	1187155.90	674021.95	513133.95
+TXN103849	1233525.01	721035.10	512489.91
+TXN102656	1118662.74	623924.61	494738.13
+TXN103724	1120035.62	625659.03	494376.59
+TXN103153	1311412.50	819315.00	492097.50
+TXN101467	1235112.50	744243.75	490868.75
+TXN103453	1303405.95	817914.02	485491.93
+TXN104995	1234905.48	754909.38	479996.10
+TXN101831	1236040.38	756515.79	479524.59
+TXN102743	1101366.00	623397.60	477968.40
+TXN102068	1125116.69	647668.67	477448.02
+TXN100590	1140081.20	665507.10	474574.10
+TXN100838	1102978.80	629395.92	473582.88
+TXN102771	1339020.81	868213.80	470807.01
+TXN100331	1231518.47	762536.81	468981.66
+TXN102664	1250976.44	783855.66	467120.78
+TXN101863	1169233.80	702916.36	466317.44
+TXN104709	1064607.40	598773.76	465833.64
+TXN103423	1071354.90	606440.67	464914.23
+TXN104500	1104624.62	640516.95	464107.67
+TXN102242	1347788.20	883873.56	463914.64
+TXN103698	1097484.08	633643.92	463840.16
+TXN101564	1221478.72	759440.56	462038.16
+TXN102879	1080281.61	620778.06	459503.55
+TXN101057	1043720.16	585133.50	458586.66
+TXN103492	1191506.40	734840.40	456666.00
+TXN101310	1063508.60	608291.60	455217.00
+TXN104199	1067800.00	615088.00	452712.00
+TXN104971	1037922.93	589100.49	448822.44
+TXN103873	1102869.00	654500.25	448368.75
+TXN103547	1087831.20	640154.10	447677.10
+TXN101544	1086808.75	639640.25	447168.50
+TXN103322	1135360.64	689232.08	446128.56
+TXN101748	1374007.04	930881.28	443125.76
+TXN101860	1347857.24	905802.86	442054.38
+TXN101222	1095875.44	654010.28	441865.16
+Total_Estimated_Sales_Value_GBP	Total_Dispatched_Inventory_Cost_GBP	Total_Estimated_Gross_Profit_GBP
+1170728632.87	808422287.40	362306345.47
+Product_Name	Avg_Unit_Margin_GBP	Avg_Margin_Percentage
+Paracetamol	293.21	31.14
+Keyboard	295.36	30.96
+Cereal	284.01	30.62
+Cough Syrup	269.42	30.61
+Mixer	288.11	30.37
+Bandages	263.31	30.25
+Coffee	258.38	30.07
+Smartphone	265.80	30.03
+T-Shirt	266.77	30.03
+Monitor	284.95	29.96
+Air Fryer	248.24	29.93
+Jacket	285.69	29.92
+Tea Bags	286.14	29.86
+Laptop	269.61	29.62
+Rice Pack	267.42	29.37
+Jeans	279.17	29.26
+Cooking Oil	260.06	29.25
+Microwave	267.09	29.15
+Vitamin Tablets	267.95	29.08
+Tablet	253.08	28.94
+Vacuum Cleaner	265.95	28.75
+Sneakers	264.98	28.74
+Handbag	250.03	28.28
+Warehouse_Name	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Leeds Fulfillment	160515371.71	49830267.33
+Newcastle Depot	155620428.11	49507749.04
+Glasgow Warehouse	154564084.10	47677762.02
+Birmingham Distribution	148985993.46	45901505.40
+Bristol Supply Hub	145632947.85	44888021.83
+Liverpool Logistics	136807690.68	43262499.09
+Manchester Storage	141386506.16	42786655.14
+London Central Hub	127215610.80	38451885.62
+Product_Category	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Pharma	244691702.07	77050747.46
+Electronics	243922283.06	75832460.32
+Home Appliances	226023145.67	70334450.19
+Grocery	226590592.77	69545919.82
+Fashion	229500909.30	69542767.68
+Product_Name	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Cough Syrup	66344902.51	20626720.96
+Vitamin Tablets	63857100.67	20245907.37
+Paracetamol	59037589.04	18781423.65
+Mixer	58354986.54	18546292.93
+Vacuum Cleaner	60490755.32	18169377.90
+Keyboard	56005500.61	17803697.43
+Bandages	55452109.85	17396695.48
+Microwave	53543307.85	16930421.30
+Air Fryer	53634095.96	16688358.06
+Tablet	50921916.07	15546611.52
+T-Shirt	50361351.36	15355231.93
+Jacket	47376647.01	14870150.56
+Cereal	45637966.20	14733983.55
+Monitor	47344401.52	14710304.99
+Laptop	45709381.13	14292958.45
+Supplier_Name	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+London Trade Corp	152471783.19	48570057.87
+Northern Supply Chain	152736784.94	47083101.85
+Britannia Pharma	150550100.74	46483442.63
+ASDA Distribution	147522283.34	45818652.50
+Prime Wholesale UK	149766606.34	45460827.16
+Sainsbury Logistics	146491743.78	44458064.17
+Tesco Supply Ltd	138212679.07	42612594.02
+UK Retail Goods	132976651.47	41819605.27
+Warehouse_Name	Inventory_Loss_Value_GBP
+Birmingham Distribution	12096261.62
+Newcastle Depot	11783978.35
+Leeds Fulfillment	11444300.62
+Bristol Supply Hub	11398867.96
+Glasgow Warehouse	11022630.60
+Manchester Storage	10871923.78
+Liverpool Logistics	10694845.26
+London Central Hub	10441725.94
+Product_Category	Inventory_Loss_Value_GBP
+Fashion	18594016.36
+Electronics	17914197.54
+Pharma	17811164.43
+Home Appliances	17797869.12
+Grocery	17637286.68
+Product_Name	Inventory_Loss_Value_GBP
+Vacuum Cleaner	4839018.47
+Vitamin Tablets	4767062.13
+Air Fryer	4574614.60
+Cough Syrup	4561200.18
+Paracetamol	4341157.31
+Mixer	4311551.77
+Bandages	4141744.81
+Microwave	4072684.28
+T-Shirt	4026752.39
+Jacket	3935119.12
+Keyboard	3818763.96
+Jeans	3775121.94
+Cereal	3635903.47
+Coffee	3605365.59
+Monitor	3601131.28
+Supplier_Name	Inventory_Loss_Value_GBP
+Prime Wholesale UK	11918368.06
+ASDA Distribution	11499495.58
+Northern Supply Chain	11450468.63
+London Trade Corp	11290614.31
+UK Retail Goods	10984025.96
+Britannia Pharma	10965739.23
+Sainsbury Logistics	10887114.01
+Tesco Supply Ltd	10758708.35
+Storage_Section	Inventory_Loss_Value_GBP
+D1	12345444.88
+C2	11393296.34
+A1	11311830.09
+D2	11166655.96
+A2	10999772.84
+C1	10986289.95
+B2	10820206.90
+B1	10731037.17
+Estimated_Return_Value_GBP
+54904102.21
+Product_Category	Estimated_Return_Value_GBP
+Grocery	11111076.99
+Home Appliances	11101866.13
+Electronics	10946698.68
+Fashion	10922335.82
+Pharma	10822124.59
+Estimated_Gross_Profit_GBP	Inventory_Loss_Value_GBP	Adjusted_Contribution_Estimate_GBP
+362306345.47	89754534.13	272551811.34
+Warehouse_Name	Estimated_Gross_Profit_GBP	Inventory_Loss_Value_GBP	Adjusted_Contribution_Estimate_GBP
+Leeds Fulfillment	49830267.33	11444300.62	38385966.71
+Newcastle Depot	49507749.04	11783978.35	37723770.69
+Glasgow Warehouse	47677762.02	11022630.60	36655131.42
+Birmingham Distribution	45901505.40	12096261.62	33805243.78
+Bristol Supply Hub	44888021.83	11398867.96	33489153.87
+Liverpool Logistics	43262499.09	10694845.26	32567653.83
+Manchester Storage	42786655.14	10871923.78	31914731.36
+London Central Hub	38451885.62	10441725.94	28010159.68
+Transaction_ID	Warehouse_Name	Product_Name	Estimated_Sales_Value_GBP	Margin_Percentage
+TXN103537	London Central Hub	Air Fryer	1169039.52	18.51
+TXN100588	London Central Hub	Coffee	1023660.00	15.90
+TXN101854	Bristol Supply Hub	Bandages	973629.54	15.54
+TXN103353	London Central Hub	Cough Syrup	966697.20	15.44
+TXN100626	Birmingham Distribution	Handbag	950891.58	13.92
+TXN101134	Bristol Supply Hub	Paracetamol	935521.93	15.46
+TXN104087	London Central Hub	Cooking Oil	906154.91	14.80
+TXN100413	Manchester Storage	Cough Syrup	904701.80	19.93
+TXN102695	London Central Hub	Vitamin Tablets	901771.56	12.48
+TXN100660	Newcastle Depot	Keyboard	895858.20	13.13
+TXN100546	Birmingham Distribution	T-Shirt	891691.32	14.67
+TXN104242	Leeds Fulfillment	T-Shirt	853010.10	12.34
+TXN104979	Birmingham Distribution	Keyboard	825587.07	11.44
+TXN100132	Bristol Supply Hub	Vacuum Cleaner	822700.45	19.79
+TXN102514	Newcastle Depot	Cooking Oil	812397.73	11.57
+TXN104292	Birmingham Distribution	Tablet	812301.00	13.91
+TXN103171	Manchester Storage	Keyboard	806177.32	16.73
+TXN100205	Newcastle Depot	T-Shirt	794948.00	9.34
+TXN103845	Glasgow Warehouse	Coffee	790224.73	9.78
+TXN102782	Glasgow Warehouse	Cough Syrup	781408.04	17.34
+Transaction_ID	Transaction_Date	Txn_Year	Txn_Quarter	Txn_Month_Number	Txn_Month_Name	Txn_Day_Name
+TXN100147	2025-01-01	2025	1	1	January	Wednesday
+TXN100661	2025-01-01	2025	1	1	January	Wednesday
+TXN100977	2025-01-01	2025	1	1	January	Wednesday
+TXN101409	2025-01-01	2025	1	1	January	Wednesday
+TXN104450	2025-01-01	2025	1	1	January	Wednesday
+TXN100315	2025-01-02	2025	1	1	January	Thursday
+TXN100812	2025-01-02	2025	1	1	January	Thursday
+TXN101132	2025-01-02	2025	1	1	January	Thursday
+TXN101411	2025-01-02	2025	1	1	January	Thursday
+TXN102371	2025-01-02	2025	1	1	January	Thursday
+TXN102953	2025-01-02	2025	1	1	January	Thursday
+TXN103375	2025-01-02	2025	1	1	January	Thursday
+TXN100079	2025-01-03	2025	1	1	January	Friday
+TXN101343	2025-01-03	2025	1	1	January	Friday
+TXN101506	2025-01-03	2025	1	1	January	Friday
+TXN101571	2025-01-03	2025	1	1	January	Friday
+TXN102018	2025-01-03	2025	1	1	January	Friday
+TXN102282	2025-01-03	2025	1	1	January	Friday
+TXN102932	2025-01-03	2025	1	1	January	Friday
+TXN103890	2025-01-03	2025	1	1	January	Friday
+TXN100750	2025-01-04	2025	1	1	January	Saturday
+TXN101332	2025-01-04	2025	1	1	January	Saturday
+TXN101425	2025-01-04	2025	1	1	January	Saturday
+TXN101700	2025-01-04	2025	1	1	January	Saturday
+TXN101726	2025-01-04	2025	1	1	January	Saturday
+TXN101951	2025-01-04	2025	1	1	January	Saturday
+TXN102283	2025-01-04	2025	1	1	January	Saturday
+TXN103408	2025-01-04	2025	1	1	January	Saturday
+TXN104204	2025-01-04	2025	1	1	January	Saturday
+TXN104589	2025-01-04	2025	1	1	January	Saturday
+TXN104929	2025-01-04	2025	1	1	January	Saturday
+TXN100542	2025-01-05	2025	1	1	January	Sunday
+TXN101661	2025-01-05	2025	1	1	January	Sunday
+TXN101948	2025-01-05	2025	1	1	January	Sunday
+TXN102031	2025-01-05	2025	1	1	January	Sunday
+TXN102521	2025-01-05	2025	1	1	January	Sunday
+TXN102671	2025-01-05	2025	1	1	January	Sunday
+TXN102704	2025-01-05	2025	1	1	January	Sunday
+TXN103865	2025-01-05	2025	1	1	January	Sunday
+TXN104823	2025-01-05	2025	1	1	January	Sunday
+TXN104833	2025-01-05	2025	1	1	January	Sunday
+TXN100729	2025-01-06	2025	1	1	January	Monday
+TXN101090	2025-01-06	2025	1	1	January	Monday
+TXN101500	2025-01-06	2025	1	1	January	Monday
+TXN101843	2025-01-06	2025	1	1	January	Monday
+TXN101852	2025-01-06	2025	1	1	January	Monday
+TXN103256	2025-01-06	2025	1	1	January	Monday
+TXN103660	2025-01-06	2025	1	1	January	Monday
+TXN104155	2025-01-06	2025	1	1	January	Monday
+TXN101257	2025-01-07	2025	1	1	January	Tuesday
+Txn_Year	Txn_Month	Transaction_Count
+2025	1	295
+2025	2	311
+2025	3	283
+2025	4	340
+2025	5	292
+2025	6	285
+2025	7	313
+2025	8	329
+2025	9	272
+2025	10	315
+2025	11	290
+2025	12	336
+2026	1	311
+2026	2	262
+2026	3	293
+2026	4	300
+2026	5	173
+Txn_Year	Txn_Month	Total_Received	Total_Dispatched	Total_Remaining_Stock
+2025	1	149748	80302	60720
+2025	2	170028	86560	74339
+2025	3	150320	78841	62976
+2025	4	168903	88400	70440
+2025	5	149159	79243	61081
+2025	6	146224	75344	62160
+2025	7	165857	84864	72015
+2025	8	165284	85430	69678
+2025	9	146349	80364	57425
+2025	10	164216	85092	69590
+2025	11	161087	79947	72211
+2025	12	176475	88156	78149
+2026	1	159133	85993	64312
+2026	2	135546	72210	55543
+2026	3	154355	75755	69630
+2026	4	158984	80757	69358
+2026	5	92693	46617	41031
+Txn_Year	Txn_Month	Total_Loss_Units	Loss_Percentage	Loss_Value_GBP
+2025	1	8726	5.83	5038155.53
+2025	2	9129	5.37	5030424.94
+2025	3	8503	5.66	5108208.34
+2025	4	10063	5.96	6518435.56
+2025	5	8835	5.92	4974422.44
+2025	6	8720	5.96	5200850.50
+2025	7	8978	5.41	5633781.28
+2025	8	10176	6.16	6220292.14
+2025	9	8560	5.85	5335733.99
+2025	10	9534	5.81	5539842.14
+2025	11	8929	5.54	5215591.29
+2025	12	10170	5.76	6366791.41
+2026	1	8828	5.55	5420692.22
+2026	2	7793	5.75	4627095.47
+2026	3	8970	5.81	5479736.14
+2026	4	8869	5.58	5154148.27
+2026	5	5045	5.44	2890332.47
+Txn_Year	Txn_Month	Return_Percentage
+2025	1	4.52
+2025	2	4.31
+2025	3	4.57
+2025	4	4.53
+2025	5	4.59
+2025	6	4.61
+2025	7	4.61
+2025	8	5.27
+2025	9	4.03
+2025	10	4.84
+2025	11	4.38
+2025	12	4.65
+2026	1	4.54
+2026	2	4.62
+2026	3	5.00
+2026	4	5.04
+2026	5	4.86
+Txn_Year	Txn_Month	On_Time_Rate	Avg_Delivery_Days
+2025	1	26.44	5.72
+2025	2	29.90	5.64
+2025	3	26.86	5.57
+2025	4	30.29	5.37
+2025	5	33.56	5.41
+2025	6	29.82	5.44
+2025	7	28.12	5.59
+2025	8	33.74	5.50
+2025	9	32.35	5.38
+2025	10	28.25	5.64
+2025	11	29.31	5.64
+2025	12	33.04	5.36
+2026	1	23.47	5.83
+2026	2	33.97	5.40
+2026	3	31.74	5.45
+2026	4	26.67	5.57
+2026	5	30.06	5.39
+Txn_Year	Txn_Month	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+2025	1	67854891.78	20599823.16
+2025	2	67392562.27	20676072.68
+2025	3	68868133.65	20976444.35
+2025	4	82001654.15	24725373.10
+2025	5	69917437.86	21248724.42
+2025	6	61852050.29	19191438.82
+2025	7	72441023.58	22100559.16
+2025	8	73469393.40	22783862.08
+2025	9	71281696.73	22170442.40
+2025	10	78797652.62	25264699.16
+2025	11	64248889.80	19826420.83
+2025	12	83092747.14	26296503.66
+2026	1	73800861.43	23209773.27
+2026	2	65717061.04	20263847.01
+2026	3	65983396.42	20668101.57
+2026	4	67121054.06	20560084.35
+2026	5	36888126.65	11744175.45
+Txn_Month	Txn_Month_Name	Dispatched_2025	Dispatched_2026	YoY_Percentage_Change
+1	January	80302	85993	7.09
+2	February	86560	72210	-16.58
+3	March	78841	75755	-3.91
+4	April	88400	80757	-8.65
+5	May	79243	46617	-41.17
+Txn_Year	Txn_Month	Total_Dispatched	Prev_Month_Dispatched	Dispatch_MoM_Pct_Change	Loss_Value_GBP	Loss_Value_MoM_Pct_Change	Gross_Profit_GBP	Gross_Profit_MoM_Pct_Change
+2025	1	80302	NULL	NULL	5038155.53	NULL	20599823.16	NULL
+2025	2	86560	80302	7.79	5030424.94	-0.15	20676072.68	0.37
+2025	3	78841	86560	-8.92	5108208.34	1.55	20976444.35	1.45
+2025	4	88400	78841	12.12	6518435.56	27.61	24725373.10	17.87
+2025	5	79243	88400	-10.36	4974422.44	-23.69	21248724.42	-14.06
+2025	6	75344	79243	-4.92	5200850.50	4.55	19191438.82	-9.68
+2025	7	84864	75344	12.64	5633781.28	8.32	22100559.16	15.16
+2025	8	85430	84864	0.67	6220292.14	10.41	22783862.08	3.09
+2025	9	80364	85430	-5.93	5335733.99	-14.22	22170442.40	-2.69
+2025	10	85092	80364	5.88	5539842.14	3.83	25264699.16	13.96
+2025	11	79947	85092	-6.05	5215591.29	-5.85	19826420.83	-21.53
+2025	12	88156	79947	10.27	6366791.41	22.07	26296503.66	32.63
+2026	1	85993	88156	-2.45	5420692.22	-14.86	23209773.27	-11.74
+2026	2	72210	85993	-16.03	4627095.47	-14.64	20263847.01	-12.69
+2026	3	75755	72210	4.91	5479736.14	18.43	20668101.57	1.99
+2026	4	80757	75755	6.60	5154148.27	-5.94	20560084.35	-0.52
+2026	5	46617	80757	-42.27	2890332.47	-43.92	11744175.45	-42.88
+Metric	Txn_Year	Txn_Month	Value
+Highest Dispatch Volume	2025	4	88400
+Metric	Txn_Year	Txn_Month	Value
+Lowest Dispatch Volume	2026	5	46617
+Metric	Txn_Year	Txn_Month	Value
+Highest Loss Percentage	2025	8	6.16
+Metric	Txn_Year	Txn_Month	Value
+Lowest Loss Percentage	2025	2	5.37
+Metric	Txn_Year	Txn_Month	Value
+Highest Gross Profit	2025	12	26296503.66
+Metric	Txn_Year	Txn_Month	Value
+Lowest Gross Profit	2026	5	11744175.45
+Warehouse_Name	On_Time	Slightly_Delayed	Delayed_Count	Total_Transactions
+Birmingham Distribution	211	172	263	646
+Bristol Supply Hub	172	194	270	636
+Glasgow Warehouse	212	169	246	627
+Leeds Fulfillment	183	190	258	631
+Liverpool Logistics	169	179	254	602
+London Central Hub	187	186	241	614
+Manchester Storage	172	205	235	612
+Newcastle Depot	186	172	274	632
+Product_Category	Passed	Failed
+Electronics	845	153
+Fashion	833	157
+Grocery	863	136
+Home Appliances	831	175
+Pharma	857	150
+Warehouse_Name	Passed	Failed
+Birmingham Distribution	538	108
+Bristol Supply Hub	525	111
+Glasgow Warehouse	524	103
+Leeds Fulfillment	550	81
+Liverpool Logistics	493	109
+London Central Hub	539	75
+Manchester Storage	527	85
+Newcastle Depot	533	99
+Transaction_ID	Warehouse_Name	Product_Name	Transaction_Loss_Percentage
+TXN100258	Liverpool Logistics	Bandages	112.00
+TXN103789	Bristol Supply Hub	Tablet	110.00
+TXN102981	Newcastle Depot	Mixer	105.26
+TXN103525	Leeds Fulfillment	Jacket	100.00
+TXN104775	Newcastle Depot	Rice Pack	96.49
+TXN101663	Liverpool Logistics	Bandages	93.10
+TXN100377	London Central Hub	Paracetamol	92.73
+TXN100399	Newcastle Depot	Cough Syrup	89.66
+TXN101501	Newcastle Depot	Microwave	88.46
+TXN100868	Manchester Storage	Jeans	88.24
+TXN102017	Glasgow Warehouse	T-Shirt	86.00
+TXN103392	Manchester Storage	Laptop	85.96
+TXN100342	Liverpool Logistics	Jacket	85.71
+TXN104744	London Central Hub	T-Shirt	85.45
+TXN103583	Birmingham Distribution	Cooking Oil	81.08
+TXN101404	London Central Hub	Handbag	80.65
+TXN102458	Leeds Fulfillment	Mixer	80.39
+TXN103584	Newcastle Depot	Monitor	78.79
+TXN101169	Manchester Storage	Rice Pack	77.78
+TXN102786	Bristol Supply Hub	Vacuum Cleaner	77.19
+TXN102275	Liverpool Logistics	Handbag	75.86
+TXN104447	Liverpool Logistics	Handbag	75.81
+TXN103021	Glasgow Warehouse	Cooking Oil	75.41
+TXN101452	Newcastle Depot	Vitamin Tablets	75.00
+TXN104305	Manchester Storage	Cough Syrup	74.55
+TXN100228	London Central Hub	Rice Pack	74.24
+TXN100191	Liverpool Logistics	T-Shirt	74.07
+TXN104107	Manchester Storage	Tea Bags	72.73
+TXN102313	Birmingham Distribution	Vacuum Cleaner	70.59
+TXN104498	Newcastle Depot	Tea Bags	70.59
+Warehouse_Name	Avg_Delivery_Days
+Bristol Supply Hub	5.68
+Liverpool Logistics	5.66
+Newcastle Depot	5.60
+Leeds Fulfillment	5.54
+Warehouse_Name	Total_Remaining_Stock	Total_Inventory_Loss_Units	Total_Inventory_Loss_Value_GBP	Total_Estimated_Sales_Value_GBP	Total_Estimated_Gross_Profit_GBP
+Leeds Fulfillment	135782	18597	11444300.62	160515371.71	49830267.33
+Newcastle Depot	136171	19179	11783978.35	155620428.11	49507749.04
+Glasgow Warehouse	137976	18633	11022630.60	154564084.10	47677762.02
+Birmingham Distribution	146208	19768	12096261.62	148985993.46	45901505.40
+Bristol Supply Hub	140734	18991	11398867.96	145632947.85	44888021.83
+Liverpool Logistics	131264	18541	10694845.26	136807690.68	43262499.09
+Manchester Storage	138624	18321	10871923.78	141386506.16	42786655.14
+London Central Hub	143899	17798	10441725.94	127215610.80	38451885.62
+Warehouse_Name	Transaction_Count	Total_Received	Total_Dispatched	Total_Loss_Units	Loss_Percentage	Avg_Delivery_Days	On_Time_Rate	Estimated_Gross_Profit_GBP
+Leeds Fulfillment	631	337096	182717	18597	5.52	5.54	29.00	49830267.33
+Newcastle Depot	632	331258	175908	19179	5.79	5.60	29.43	49507749.04
+Glasgow Warehouse	627	333648	177039	18633	5.58	5.35	33.81	47677762.02
+Birmingham Distribution	646	338220	172244	19768	5.84	5.43	32.66	45901505.40
+Bristol Supply Hub	636	327289	167564	18991	5.80	5.68	27.04	44888021.83
+Liverpool Logistics	602	307481	157676	18541	6.03	5.66	28.07	43262499.09
+Manchester Storage	612	324524	167579	18321	5.65	5.49	28.10	42786655.14
+London Central Hub	614	314845	153148	17798	5.65	5.47	30.46	38451885.62
+Product_Name	Product_Category	Loss_Percentage	Return_Percentage	Audit_Failure_Rate	Delayed_Percentage	Risk_Factor_Count
+Jacket	Fashion	6.18	4.42	20.41	42.35	1
+T-Shirt	Fashion	6.15	4.40	17.35	34.25	1
+Coffee	Grocery	6.14	4.79	13.17	35.61	1
+Air Fryer	Home Appliances	6.05	5.28	19.64	43.64	1
+Cereal	Grocery	5.94	4.81	15.23	34.52	1
+Bandages	Pharma	5.91	4.29	15.68	46.19	1
+Microwave	Home Appliances	5.90	4.72	15.86	40.53	1
+Handbag	Fashion	5.89	5.19	16.24	43.65	1
+Sneakers	Fashion	5.86	4.60	8.24	37.36	1
+Vacuum Cleaner	Home Appliances	5.72	4.56	16.54	41.35	1
+Smartphone	Electronics	5.71	4.81	15.12	45.37	1
+Vitamin Tablets	Pharma	5.71	4.51	13.64	38.64	1
+Monitor	Electronics	5.69	4.72	16.58	41.45	1
+Tea Bags	Grocery	5.66	4.69	12.43	41.08	1
+Paracetamol	Pharma	5.60	4.67	16.87	44.86	1
+Mixer	Home Appliances	5.60	4.68	17.23	36.55	1
+Cough Syrup	Pharma	5.59	4.65	13.64	42.05	1
+Jeans	Fashion	5.58	4.61	16.33	41.33	1
+Rice Pack	Grocery	5.53	4.94	13.46	41.35	1
+Keyboard	Electronics	5.45	4.45	14.29	35.96	1
+Product_Name	Estimated_Gross_Profit_GBP	Product_Sequence
+Cough Syrup	20626720.96	1
+Vitamin Tablets	20245907.37	2
+Paracetamol	18781423.65	3
+Mixer	18546292.93	4
+Vacuum Cleaner	18169377.90	5
+Keyboard	17803697.43	6
+Bandages	17396695.48	7
+Microwave	16930421.30	8
+Air Fryer	16688358.06	9
+Tablet	15546611.52	10
+T-Shirt	15355231.93	11
+Jacket	14870150.56	12
+Cereal	14733983.55	13
+Monitor	14710304.99	14
+Laptop	14292958.45	15
+Jeans	14251252.64	16
+Tea Bags	14194982.48	17
+Coffee	13891173.21	18
+Smartphone	13478887.93	19
+Rice Pack	13394175.69	20
+Cooking Oil	13331604.89	21
+Sneakers	12989414.99	22
+Handbag	12076717.56	23
+Warehouse_Name	Loss_Percentage	Loss_Rank	Loss_Dense_Rank
+Liverpool Logistics	6.03	1	1
+Birmingham Distribution	5.84	2	2
+Bristol Supply Hub	5.80	3	3
+Newcastle Depot	5.79	4	4
+London Central Hub	5.65	5	5
+Manchester Storage	5.65	5	5
+Glasgow Warehouse	5.58	7	6
+Leeds Fulfillment	5.52	8	7
+Product_Category	Product_Name	Total_Dispatched	Rank_Within_Category
+Electronics	Keyboard	61037	1
+Electronics	Tablet	57855	2
+Electronics	Laptop	54559	3
+Fashion	T-Shirt	57590	1
+Fashion	Jacket	55827	2
+Fashion	Handbag	51020	3
+Grocery	Cooking Oil	56033	1
+Grocery	Rice Pack	55754	2
+Grocery	Coffee	53969	3
+Home Appliances	Vacuum Cleaner	74406	1
+Home Appliances	Mixer	67566	2
+Home Appliances	Air Fryer	66645	3
+Pharma	Cough Syrup	75352	1
+Pharma	Vitamin Tablets	70229	2
+Pharma	Paracetamol	64886	3
+Product_Name	Estimated_Gross_Profit_GBP	Profit_Quartile
+Cough Syrup	20626720.96	1
+Vitamin Tablets	20245907.37	1
+Paracetamol	18781423.65	1
+Mixer	18546292.93	1
+Vacuum Cleaner	18169377.90	1
+Keyboard	17803697.43	1
+Bandages	17396695.48	2
+Microwave	16930421.30	2
+Air Fryer	16688358.06	2
+Tablet	15546611.52	2
+T-Shirt	15355231.93	2
+Jacket	14870150.56	2
+Cereal	14733983.55	3
+Monitor	14710304.99	3
+Laptop	14292958.45	3
+Jeans	14251252.64	3
+Tea Bags	14194982.48	3
+Coffee	13891173.21	3
+Smartphone	13478887.93	4
+Rice Pack	13394175.69	4
+Cooking Oil	13331604.89	4
+Sneakers	12989414.99	4
+Handbag	12076717.56	4
+Txn_Year	Txn_Month	Monthly_Dispatched	Running_Total_Dispatched
+2025	1	80302	80302
+2025	2	86560	166862
+2025	3	78841	245703
+2025	4	88400	334103
+2025	5	79243	413346
+2025	6	75344	488690
+2025	7	84864	573554
+2025	8	85430	658984
+2025	9	80364	739348
+2025	10	85092	824440
+2025	11	79947	904387
+2025	12	88156	992543
+2026	1	85993	1078536
+2026	2	72210	1150746
+2026	3	75755	1226501
+2026	4	80757	1307258
+2026	5	46617	1353875
+Warehouse_Name	Total_Dispatched	Overall_Warehouse_Avg_Dispatched	Variance_From_Avg
+Leeds Fulfillment	182717	169234.38	13482.63
+Glasgow Warehouse	177039	169234.38	7804.63
+Newcastle Depot	175908	169234.38	6673.63
+Birmingham Distribution	172244	169234.38	3009.63
+Manchester Storage	167579	169234.38	-1655.38
+Bristol Supply Hub	167564	169234.38	-1670.38
+Liverpool Logistics	157676	169234.38	-11558.38
+London Central Hub	153148	169234.38	-16086.38
+Txn_Year	Txn_Month	Monthly_Gross_Profit_GBP	Prev_Month_Gross_Profit_GBP	Difference_From_Prev_Month
+2025	1	20599823.16	NULL	NULL
+2025	2	20676072.68	20599823.16	76249.52
+2025	3	20976444.35	20676072.68	300371.67
+2025	4	24725373.10	20976444.35	3748928.75
+2025	5	21248724.42	24725373.10	-3476648.68
+2025	6	19191438.82	21248724.42	-2057285.60
+2025	7	22100559.16	19191438.82	2909120.34
+2025	8	22783862.08	22100559.16	683302.92
+2025	9	22170442.40	22783862.08	-613419.68
+2025	10	25264699.16	22170442.40	3094256.76
+2025	11	19826420.83	25264699.16	-5438278.33
+2025	12	26296503.66	19826420.83	6470082.83
+2026	1	23209773.27	26296503.66	-3086730.39
+2026	2	20263847.01	23209773.27	-2945926.26
+2026	3	20668101.57	20263847.01	404254.56
+2026	4	20560084.35	20668101.57	-108017.22
+2026	5	11744175.45	20560084.35	-8815908.90
+Txn_Year	Txn_Month	Monthly_Gross_Profit_GBP	Next_Month_Gross_Profit_GBP	Difference_To_Next_Month
+2025	1	20599823.16	20676072.68	76249.52
+2025	2	20676072.68	20976444.35	300371.67
+2025	3	20976444.35	24725373.10	3748928.75
+2025	4	24725373.10	21248724.42	-3476648.68
+2025	5	21248724.42	19191438.82	-2057285.60
+2025	6	19191438.82	22100559.16	2909120.34
+2025	7	22100559.16	22783862.08	683302.92
+2025	8	22783862.08	22170442.40	-613419.68
+2025	9	22170442.40	25264699.16	3094256.76
+2025	10	25264699.16	19826420.83	-5438278.33
+2025	11	19826420.83	26296503.66	6470082.83
+2025	12	26296503.66	23209773.27	-3086730.39
+2026	1	23209773.27	20263847.01	-2945926.26
+2026	2	20263847.01	20668101.57	404254.56
+2026	3	20668101.57	20560084.35	-108017.22
+2026	4	20560084.35	11744175.45	-8815908.90
+2026	5	11744175.45	NULL	NULL
+Transaction_ID	Transaction_Date	Warehouse_Name	City	Product_Category	Product_Name	Supplier_Name	Inventory_Type	Dispatch_Status	Stock_Audit_Status	Temperature_Controlled	Quantity_Received	Quantity_Dispatched	Damaged_Units	Missing_Units	Customer_Returns	Delivery_Days	Remaining_Stock_Units	Inventory_Loss_Units	Inventory_Loss_Percentage	Return_Percentage	Estimated_Sales_Value_GBP	Dispatched_Inventory_Cost_GBP	Estimated_Gross_Profit_GBP	Inventory_Loss_Value_GBP
+TXN100000	2025-02-14	London Central Hub	London	Electronics	Laptop	ASDA Distribution	Inbound	Delayed	Passed	No	809	301	15	7	7	9	486	22	2.72	2.33	60576.25	51696.75	8879.50	3778.50
+TXN100001	2025-02-22	Manchester Storage	Glasgow	Fashion	Handbag	London Trade Corp	Inbound	Slightly Delayed	Passed	No	334	23	10	13	2	6	288	23	6.89	8.70	11443.88	9466.80	1977.08	9466.80
+TXN100002	2025-12-05	Leeds Fulfillment	Manchester	Home Appliances	Microwave	UK Retail Goods	Outbound	On Time	Passed	No	899	663	39	11	5	1	186	50	5.56	0.75	734060.34	460745.22	273315.12	34747.00
+TXN100003	2026-01-09	Newcastle Depot	Bristol	Pharma	Cough Syrup	Britannia Pharma	Outbound	Delayed	Passed	Yes	264	191	17	20	25	9	36	37	14.02	13.09	26646.41	17253.03	9393.38	3342.21
+TXN100004	2025-07-22	Newcastle Depot	Birmingham	Pharma	Bandages	Britannia Pharma	Inbound	Delayed	Failed	No	324	53	13	18	11	8	240	31	9.57	20.75	73631.31	55769.78	17861.53	32620.06
+TXN100005	2026-02-10	Manchester Storage	Bristol	Grocery	Cooking Oil	Northern Supply Chain	Outbound	On Time	Passed	No	571	525	5	1	24	3	40	6	1.05	4.57	655226.25	542860.50	112365.75	6204.12
+TXN100006	2026-05-13	Birmingham Distribution	Manchester	Pharma	Paracetamol	Britannia Pharma	Inbound	Slightly Delayed	Passed	Yes	350	242	10	14	17	5	84	24	6.86	7.02	3450.92	2148.96	1301.96	213.12
+TXN100007	2025-05-03	Manchester Storage	Manchester	Home Appliances	Mixer	Prime Wholesale UK	Inbound	Slightly Delayed	Passed	Yes	663	351	31	0	8	5	281	31	4.68	2.28	65910.78	48676.68	17234.10	4299.08
+TXN100008	2025-08-13	Newcastle Depot	Manchester	Home Appliances	Air Fryer	UK Retail Goods	Inbound	Slightly Delayed	Failed	Yes	266	257	34	6	18	6	-31	40	15.04	7.00	303776.57	220241.29	83535.28	34278.80
+TXN100009	2025-02-06	Leeds Fulfillment	Newcastle	Grocery	Rice Pack	UK Retail Goods	Inbound	Slightly Delayed	Passed	No	122	110	40	1	25	6	-29	41	33.61	22.73	53132.20	30644.90	22487.30	11422.19
+Warehouse_Name	Transaction_Count	Total_Received	Total_Dispatched	Total_Loss_Units	Loss_Percentage	Avg_Delivery_Days	On_Time_Dispatch_Rate	Audit_Failure_Rate	Total_Customer_Returns	Return_Percentage	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP	Inventory_Loss_Value_GBP
+Leeds Fulfillment	631	337096	182717	18597	5.52	5.54	29.00	12.84	8098	4.43	160515371.71	49830267.33	11444300.62
+Newcastle Depot	632	331258	175908	19179	5.79	5.60	29.43	15.66	7900	4.49	155620428.11	49507749.04	11783978.35
+Glasgow Warehouse	627	333648	177039	18633	5.58	5.35	33.81	16.43	7917	4.47	154564084.10	47677762.02	11022630.60
+Birmingham Distribution	646	338220	172244	19768	5.84	5.43	32.66	16.72	8002	4.65	148985993.46	45901505.40	12096261.62
+Bristol Supply Hub	636	327289	167564	18991	5.80	5.68	27.04	17.45	8014	4.78	145632947.85	44888021.83	11398867.96
+Liverpool Logistics	602	307481	157676	18541	6.03	5.66	28.07	18.11	7456	4.73	136807690.68	43262499.09	10694845.26
+Manchester Storage	612	324524	167579	18321	5.65	5.49	28.10	13.89	7769	4.64	141386506.16	42786655.14	10871923.78
+London Central Hub	614	314845	153148	17798	5.65	5.47	30.46	12.21	7666	5.01	127215610.80	38451885.62	10441725.94
+Product_Name	Product_Category	Transaction_Count	Total_Received	Total_Dispatched	Total_Loss_Units	Loss_Percentage	Total_Customer_Returns	Return_Percentage	Estimated_Sales_Value_GBP	Estimated_Gross_Profit_GBP
+Cough Syrup	Pharma	264	141609	75352	7909	5.59	3505	4.65	66344902.51	20626720.96
+Vitamin Tablets	Pharma	264	135663	70229	7741	5.71	3167	4.51	63857100.67	20245907.37
+Paracetamol	Pharma	243	128809	64886	7219	5.60	3028	4.67	59037589.04	18781423.65
+Mixer	Home Appliances	238	126881	67566	7102	5.60	3164	4.68	58354986.54	18546292.93
+Vacuum Cleaner	Home Appliances	266	142945	74406	8180	5.72	3390	4.56	60490755.32	18169377.90
+Keyboard	Electronics	203	115011	61037	6270	5.45	2717	4.45	56005500.61	17803697.43
+Bandages	Pharma	236	121710	63926	7191	5.91	2740	4.29	55452109.85	17396695.48
+Microwave	Home Appliances	227	115506	60449	6816	5.90	2855	4.72	53543307.85	16930421.30
+Air Fryer	Home Appliances	275	136832	66645	8281	6.05	3521	5.28	53634095.96	16688358.06
+Tablet	Electronics	199	108149	57855	5790	5.35	2362	4.08	50921916.07	15546611.52
+T-Shirt	Fashion	219	108887	57590	6693	6.15	2534	4.40	50361351.36	15355231.93
+Jacket	Fashion	196	102834	55827	6351	6.18	2468	4.42	47376647.01	14870150.56
+Cereal	Grocery	197	101390	53339	6024	5.94	2565	4.81	45637966.20	14733983.55
+Monitor	Electronics	193	103042	51412	5866	5.69	2427	4.72	47344401.52	14710304.99
+Laptop	Electronics	198	106468	54559	5675	5.33	2457	4.50	45709381.13	14292958.45
+Total_Transactions	Total_Received	Total_Dispatched	Overall_Loss_Percentage	Overall_Return_Percentage	Overall_Audit_Failure_Rate	Overall_On_Time_Rate	Total_Estimated_Sales_Value_GBP	Total_Estimated_Gross_Profit_GBP	Total_Inventory_Loss_Value_GBP
+5000	2614361	1353875	5.73	4.64	15.42	29.84	1170728632.87	362306345.47	89754534.13
